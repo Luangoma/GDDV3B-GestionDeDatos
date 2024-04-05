@@ -1,0 +1,8 @@
+Nombre,Coste_PE,Descripcion,Jugador_ID
+Recuperar,1,"Recupera PC y PF, curando a Mario y a su compañero.",6
+Terremoto,2,Ataca a todos los enemigos haciendo temblar el suelo.,7
+Tiempo Muerto,2,Detiene durante un rato a todos los enemigos.,4
+Recargar,3,Aumenta durante un rato el poder de ataque y defensa.,1
+Ataque Estelar,4,Ataca a todos los enemigos rodeados por las estrellas.,5
+Como Nuevo,5,"Recupera PC y PF y, además, cura a Mario y a su compañero.",4
+Golpe Final,2,Termina con los enemigos de un golpe.,1

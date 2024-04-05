@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Batallas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Batalla" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="num_Turnos" type="xs:integer"/>
+                            <xs:element name="num_Ayudantes" type="xs:integer"/>
+                        </xs:sequence>
+                        <xs:attribute name="Enemigo_ID" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:positiveInteger">
+                                    <xs:minInclusive value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType> 
+                        </xs:attribute>
+                        <xs:attribute name="Jugador_ID" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:positiveInteger">
+                                    <xs:minInclusive value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType> 
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

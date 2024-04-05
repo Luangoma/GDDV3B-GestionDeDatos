@@ -1,0 +1,20 @@
+Nombre,Coste_PM,Descripcion,Jugador_ID
+Salto Potente,1,Permite realizar un Salto Potente. Gasta 2 PF. Salta con mucho poder de ataque.,3
+Multi-Rebote,1,Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos.,10
+Golpe Potente,1,Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque.,2
+Martillo Terremoto,2,Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo.,6
+Golpe Confusión,1,Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso.,2
+Doble Objeto,3,"En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF.",2
+Más Fuerza,6,Incrementa los poderes de Salto y Martillo en 1 Punto.,9
+Mega Prisa,1,"Cuando Mario está en peligro, su poder de ataque sube en 5 puntos.",2
+Última Posibilidad,1,"Cuando Mario está en peligro, solo recibe la mitad del daño.",6
+Más PC,3,Incrementa los PC Máximos de Mario en 5 puntos.,1
+Más PF,3,Incrementa los PF Máximos en 5 puntos.,7
+Ahorraflores,4,"En el combate, ahorra 1 PF cada vez que Mario ataca.",10
+Anti-Pinchos,3,Permite saltar sobre un enemigo con pinchos sin recibir daño.,5
+Vacuna,4,Protege a Mario de mareos y envenenamientos durante el combate.,4
+Corazón Feliz,2,Va recuperando los PC de Mario durante el combate.,1
+Día Suerte,7,Hace que el enemigo falle mucho al atacar a Mario.,7
+Cambio Rápido,7,Permite cambiar de compañero sin perder turno.,10
+FX Ataque A,0,"Cuando Mario ataca, se oye el sonido de una rana.",4
+Emblema L,0,El traje de Mario se volverá como el de Luigi.,3

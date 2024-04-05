@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Items.xsd">
+    <item>
+        <nombre>Seta</nombre>
+        <descripcion>Recupera 5 PC.</descripcion>
+    </item>
+    <item>
+        <nombre>Gelatina</nombre>
+        <descripcion>Recupera 5 PF.</descripcion>
+    </item>
+    <item>
+        <nombre>Ultra Seta</nombre>
+        <descripcion>Recupera 15 PC.</descripcion>
+    </item>
+    <item>
+        <nombre>Grandimiel</nombre>
+        <descripcion>Recupera 15 PF.</descripcion>
+    </item>
+    <item>
+        <nombre>Flor de fuego</nombre>
+        <descripcion>Quita 3 PC a todos los enemigos.</descripcion>
+    </item>
+    <item>
+        <nombre>Bloque POW</nombre>
+        <descripcion>Quita 2 PC a todos los enemigos y da vuelta a enemigos con caparazón</descripcion>
+    </item>
+    <item>
+        <nombre>Furia Trueno</nombre>
+        <descripcion>Quita 4 PC a todos los enemigos.</descripcion>
+    </item>
+    <item>
+        <nombre>Estrella Fugaz</nombre>
+        <descripcion>Quita 6 PC a todos los enemigos.</descripcion>
+    </item>
+    <item>
+        <nombre>Tónico</nombre>
+        <descripcion>Cura estados.</descripcion>
+    </item>
+    <item>
+        <nombre>Espíritu</nombre>
+        <descripcion>Te cubre de ataques enemigos.</descripcion>
+    </item>
+    <item>
+        <nombre>Disco Mareo</nombre>
+        <descripcion>Marea a los enemigos.</descripcion>
+    </item>
+    <item>
+        <nombre>Don Blandito</nombre>
+        <descripcion>Reduce el ataque de los enemigos.</descripcion>
+    </item>
+    <item>
+        <nombre>Concha Protectora</nombre>
+        <descripcion>Te protege de ataques enemigos.</descripcion>
+    </item>
+    <item>
+        <nombre>Capote</nombre>
+        <descripcion>Esquiva ataques de enemigos</descripcion>
+    </item>
+    <item>
+        <nombre>Chupa PC</nombre>
+        <descripcion>Quita PC a un enemigo y se lo da a tu personaje.</descripcion>
+    </item>
+    <item>
+        <nombre>Oveja Sueño</nombre>
+        <descripcion>Duerme a los enemigos.</descripcion>
+    </item>
+</items>

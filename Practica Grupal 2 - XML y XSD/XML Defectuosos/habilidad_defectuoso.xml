@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Habilidades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="habilidad.xsd">
+   <!-- Error numeros negativos -->
+   <Habilidad Personaje_nom="Goomarina">
+      <Nombre>Cabezazo</Nombre>
+      <Coste_PF>-10000</Coste_PF>
+      <Ind_atq>-4</Ind_atq>
+      <Ind_def>-8990</Ind_def>
+      <Descripcion>Ataca a un enemigo de un cabezazo.</Descripcion>
+   </Habilidad>
+   <!-- Error elementos desordenados -->
+   <Habilidad Personaje_nom="Goomarina">
+      <Descripcion>Ataca a un enemigo hasta fallar.</Descripcion>
+      <Coste_PF>3</Coste_PF>
+      <Ind_def>0</Ind_def>
+      <Ind_atq>3</Ind_atq>
+      <Nombre>Multicabezazo</Nombre>
+   </Habilidad>
+   <!-- Error mezcla de numeros y simbolos -->
+   <Habilidad Personaje_nom="Goomarina">
+      <Nombre>Beso de Ánimo</Nombre>
+      <Coste_PF>4203+9485</Coste_PF>
+      <Ind_atq>0384048+020''32'8498'2340934'034</Ind_atq>
+      <Ind_def>0'0324985'93428'¿¡2034985330¡4</Ind_def>
+      <Descripcion>Hace que Mario realice dos acciones en un turno.</Descripcion>
+   </Habilidad>
+   <!-- Error elementos vacios-->
+   <Habilidad Personaje_nom="Koops">
+      <Nombre></Nombre>
+      <Coste_PF></Coste_PF>
+      <Ind_atq></Ind_atq>
+      <Ind_def></Ind_def>
+      <Descripcion></Descripcion>
+   </Habilidad>
+   <!-- Error numeros decimales -->
+   <Habilidad Personaje_nom="Koops">
+      <Nombre>Súper Concha</Nombre>
+      <Coste_PF>3.452</Coste_PF>
+      <Ind_atq>2,434</Ind_atq>
+      <Ind_def>0,2323</Ind_def>
+      <Descripcion>Lanza la concha contra todos los enemigos.</Descripcion>
+   </Habilidad>
+   <!-- Error numeros seguidos-->
+   <Habilidad Personaje_nom="Koops">
+      <Nombre>Protegeconcha</Nombre>
+      <Coste_PF>0000</Coste_PF>
+      <Ind_atq>00100</Ind_atq>
+      <Ind_def>00200</Ind_def>
+      <Descripcion>Deja caer una concha que protege a Mario.</Descripcion>
+   </Habilidad>
+   <!-- Error  letras en vez de numeros-->
+   <Habilidad Personaje_nom="Koops">
+      <Nombre>Concha Furia</Nombre>
+      <Coste_PF>pepe</Coste_PF>
+      <Ind_atq>la rana pepe intenta reomper el sistema de ataque</Ind_atq>
+      <Ind_def>El primo de pepe intenta eliminar tu defensa</Ind_def>
+      <Descripcion>Ataca a todos los enemigos del suelo.</Descripcion>
+   </Habilidad>
+   <!-- Error personaje inexistente-->
+   <Habilidad Personaje_nom="RanaPepe">
+      <Nombre>Meme</Nombre>
+      <Coste_PF>0</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Te hace reir.</Descripcion>
+   </Habilidad>
+</Habilidades>

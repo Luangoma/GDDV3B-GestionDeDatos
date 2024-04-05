@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Habs_Estrella xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="hab_estrella.xsd">
+   <Hab_Estrella Jugador_ID="6">
+      <Nombre>Recuperar</Nombre>
+      <Coste_PM>1</Coste_PM>
+      <Descripcion>Recupera PC y PF, curando a Mario y a su compañero.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="7">
+      <Nombre>Terremoto</Nombre>
+      <Coste_PM>2</Coste_PM>
+      <Descripcion>Ataca a todos los enemigos haciendo temblar el suelo.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="4">
+      <Nombre>Tiempo Muerto</Nombre>
+      <Coste_PM>2</Coste_PM>
+      <Descripcion>Detiene durante un rato a todos los enemigos.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="1">
+      <Nombre>Recargar</Nombre>
+      <Coste_PM>3</Coste_PM>
+      <Descripcion>Aumenta durante un rato el poder de ataque y defensa.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="5">
+      <Nombre>Ataque Estelar</Nombre>
+      <Coste_PM>4</Coste_PM>
+      <Descripcion>Ataca a todos los enemigos rodeados por las estrellas.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="4">
+      <Nombre>Como Nuevo</Nombre>
+      <Coste_PM>5</Coste_PM>
+      <Descripcion>Recupera PC y PF y, además, cura a Mario y a su compañero.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="1">
+      <Nombre>Golpe Final</Nombre>
+      <Coste_PM>2</Coste_PM>
+      <Descripcion>Termina con los enemigos de un golpe.</Descripcion>
+   </Hab_Estrella>
+</Habs_Estrella>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Lugar_Enemigos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Lugar_Enemigo" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:attribute name="Nombre_Lugar" type="xs:string" use="required"/>
+                        <xs:attribute name="Enemigo_ID" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:positiveInteger">
+                                    <xs:minInclusive value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType> 
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,62 @@
+Simples
+1. Todos los jugadores con más de 50 monedas y 30 puntos flor
+for $Jugador in doc("../Tablas en XML/jugador.xml")//Jugador
+where $Jugador/number(Monedas) > 50 and $Jugador/number(PF) > 20
+return $Jugador
+
+2. El nombre de las habilidades estrella que consuman más de 4 puntos estrella.
+for $nombre in doc("../Tablas en XML/hab_estrella.xml")/Habs_Estrella/Hab_Estrella
+where $nombre/Coste_PM>4
+return $nombre/Nombre/text()
+
+3. El nombre de los lugares donde haya más de 10 enemigos y 5 NPCs.
+for $Lugar in doc("../Tablas en XML/lugar.xml")//Lugar
+where $Lugar/number(Enemigos) > 10 and $Lugar/number(Npc) > 5
+return $Lugar/Nombre/text()
+
+
+Complejas
+4. El nombre de los enemigos que vuelan que vivan en X región.
+for $enemigo in doc("../Tablas en XML/enemigos.xml")//Enemigo
+let $lugarEnemigo := doc("../Tablas en XML/lugar_enemigo.xml")//Lugar_Enemigo[@Enemigo_ID = $enemigo/@Enemigo_ID]
+where $enemigo/@Vuela = "1"
+and $lugarEnemigo/@Nombre_Lugar = "Llanura Estelar"
+return $enemigo/Nombre/text()
+
+5. La descripción de un ítem cuyo nombre sea X del jugador con id X. 
+for $items in doc("../Tablas en XML/items.xml")//item
+for $jugador_items in doc("../Tablas en XML/jugador_items.xml")//Jugador_Items[items_Nombre = $items/nombre]
+where $items/nombre = "Concha Protectora"
+and $jugador_items/@Jugador_ID = "4"
+return $items/descripcion/text()
+
+6. Mostrar el nombre de los enemigos que se han enfrentado al jugador con id X agrupados según el número de ayudantes que han tenido en la batalla
+for $enemigo in doc("../Tablas en XML/enemigos.xml")//Enemigo
+let $batalla := doc("../Tablas en XML/batallas.xml")//Batalla[$enemigo/@Enemigo_ID=@Enemigo_ID]
+where $batalla and $batalla/@Jugador_ID="1"
+return $enemigo/Nombre/text()
+
+
+Agrupadas
+7. Agrupar las habilidades estrella según su coste y mostrarlas. 
+for $coste in doc("../Tablas en XML/hab_estrella.xml")//Hab_Estrella
+group by $c:= $coste/Coste_PM
+let $appareances := count($coste/Coste_PM)
+return element Hab_Estrella{$appareances, distinct-values($coste/Coste_PM)}/text()
+
+8. Calcular la media de PF de los personajes según su procedencia.
+let $procedenciasUnicas := distinct-values(doc("../Tablas en XML/personaje.xml")//Personaje/Procedencia/text())
+for $procedencia in $procedenciasUnicas
+order by $procedencia
+return fn:concat($procedencia," ",fn:round(avg(doc("../Tablas en XML/personaje.xml")//Personaje[Procedencia = $procedencia]/PF)))
+
+9. Mostrar nombre, puntos de fuerza y ataque total de todas las habilidades de un personaje agrupadas por el nombre.
+for $jugi in doc("..//Tablas en XML/jugador_items.xml")//Jugador_Items
+order by xs:integer($jugi/@Jugador_ID)
+return fn:concat($jugi/@Jugador_ID," ",$jugi/num_Items)
+
+10. Calcular el número total de ítems de los jugadores.
+for $p in doc("../Tablas en XML/personaje.xml")//Personaje
+let $h := doc("../Tablas en XML/habilidad.xml")//Habilidad[$p/Nombre = @Personaje_nom]
+order by $p/Nombre
+return fn:concat($p/Nombre/text()," ",$p/PF/text()," ",sum($h/Ind_atq))

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Personajes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="personaje.xsd">
+   <Personaje>
+      <Nombre>Goomarina</Nombre>
+      <!--Para comprobar si se excluyen correctamente los valores por debajo del limite inferior-->
+      <PC>3</PC>
+      <PF>15</PF>
+      <Procedencia>Villa Viciosa</Procedencia>
+      <!--Un string con una longitud maxima mayor que la establecida en la restriccion-->
+      <Descripcion>Una Goomba universitaria que aspira a ser arqueóloga, estudia en la Universidad de Villa Viciosa. Tiene como hobby salir a recoger setas.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Koops</Nombre>
+      <PC>15</PC>
+      <PF>20</PF>
+      <Procedencia>Villa Verde</Procedencia>
+      <Descripcion>Un joven Koopa que desea volverse más fuerte.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Claudia</Nombre>
+      <PC>35</PC>
+      <PF>49</PF>
+      <Procedencia>Bosque Maravilloso</Procedencia>
+      <Descripcion>¡Un espíritu nebuloso con un cuerpo que es pura dinamita!</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Yoshi</Nombre>
+      <PC>20</PC>
+      <!--Para comprobar si se incluye correctamente el limite superior (inclusive)-->
+      <PF>50</PF>
+      <Procedencia>Ciudad Dojo</Procedencia>
+      <!--Un string con una longitud minima menor que la establecida en la restriccion-->
+      <Descripcion>Un Yoshi recién nacido.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Bibiana</Nombre>
+      <!--Para comprobar si se incluye correctamente el limite inferior (inclusive)-->
+      <PC>5</PC>
+      <!--Para comprobar si se excluyen correctamente los valores por encima del limite superior-->
+      <PF>51</PF>
+      <Procedencia>Villa Sombría</Procedencia>
+      <!--Un string con justo 101 caracteres-->
+      <Descripcion>Este antiguo miembro del Trío de las Sombras parece una chica, pero en realidad es un chico,que guay.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Bombard</Nombre>
+      <PC>30</PC>
+      <PF>20</PF>
+      <Procedencia>Villa Viciosa</Procedencia>
+      <!--Un string con justo 30 caracteres-->
+      <Descripcion>Un viejo lobo de mar Boob-omb.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Lupina</Nombre>
+      <PC>25</PC>
+      <PF>15</PF>
+      <Procedencia>Villa Viciosa</Procedencia>
+      <!--Un string con justo 100 caracteres-->
+      <Descripcion>Esta ladrona en realidad es la dueña de la tienda de medallas de Villa Viciosa Vende muchas medallas</Descripcion>
+   </Personaje>
+</Personajes>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lugares xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="lugar.xsd">
+   <Lugar>
+      <Nombre>Villa Viciosa</Nombre>
+      <Npc>15</Npc>
+      <Enemigos>14</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Subsuelo de Villa Viciosa</Nombre>
+      <Npc>13</Npc>
+      <Enemigos>8</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Llanura Estelar</Nombre>
+      <Npc>14</Npc>
+      <Enemigos>9</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Villa Verde</Nombre>
+      <Npc>7</Npc>
+      <Enemigos>0</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Fortaleza de Piedra</Nombre>
+      <Npc>8</Npc>
+      <Enemigos>13</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Castillo de Goombaba</Nombre>
+      <Npc>12</Npc>
+      <Enemigos>17</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Bosque Maravilloso</Nombre>
+      <Npc>17</Npc>
+      <Enemigos>19</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Gran Árbol</Nombre>
+      <Npc>12</Npc>
+      <Enemigos>8</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Casa de Claudia</Nombre>
+      <Npc>7</Npc>
+      <Enemigos>0</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Ciudad Dojo</Nombre>
+      <Npc>9</Npc>
+      <Enemigos>16</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Villa Sombría</Nombre>
+      <Npc>18</Npc>
+      <Enemigos>20</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Camino Sombrío</Nombre>
+      <Npc>16</Npc>
+      <Enemigos>18</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Templo Lúgubre</Nombre>
+      <Npc>12</Npc>
+      <Enemigos>9</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Isla Trópico</Nombre>
+      <Npc>11</Npc>
+      <Enemigos>5</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Cueva de los Piratas</Nombre>
+      <Npc>11</Npc>
+      <Enemigos>20</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Estación de Riverside</Nombre>
+      <Npc>9</Npc>
+      <Enemigos>16</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Villa Preciosa</Nombre>
+      <Npc>18</Npc>
+      <Enemigos>0</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Bomburgo</Nombre>
+      <Npc>12</Npc>
+      <Enemigos>14</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>La Luna</Nombre>
+      <Npc>7</Npc>
+      <Enemigos>6</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Palacio de la Oscuridad</Nombre>
+      <Npc>8</Npc>
+      <Enemigos>11</Enemigos>
+   </Lugar>
+   <Lugar>
+      <Nombre>Cien Mazmorras</Nombre>
+      <Npc>15</Npc>
+      <Enemigos>7</Enemigos>
+   </Lugar>
+</Lugares>

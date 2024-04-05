@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Jugadores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Jugador" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PC">
+                <xs:simpleType>
+                    <xs:restriction base="xs:positiveInteger">
+                      <xs:minInclusive value="1"/>
+                    </xs:restriction>
+                </xs:simpleType> 
+              </xs:element>
+              <xs:element type="xs:integer" name="PE"/>
+              <xs:element name="PF">
+                <xs:simpleType>
+                    <xs:restriction base="xs:positiveInteger">
+                      <xs:minInclusive value="1"/>
+                    </xs:restriction>
+                </xs:simpleType> 
+              </xs:element>
+              <xs:element type="xs:integer" name="Monedas"/>
+              <xs:element name="Estado">
+                <xs:simpleType>
+                    <xs:restriction base="xs:positiveInteger">
+                      <xs:minInclusive value="1"/>
+                    </xs:restriction>
+                </xs:simpleType> 
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:integer" name="id"/>
+            <xs:attribute type="xs:string" name="Personaje"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

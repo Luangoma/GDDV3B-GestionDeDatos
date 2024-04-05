@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Habs_Estrella xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="hab_estrella.xsd">
+   <Hab_Estrella Jugador_ID="6">
+      <Nombre>Recuperar</Nombre>
+      <Coste_PM>1</Coste_PM>
+      <Descripcion>Recupera PC y PF, curando a Mario y a su compañero.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="7">
+      <Nombre>Terremoto</Nombre>
+      <!--Valor inferior al límite máximo establecido por la restricción, y no permitido por
+      el tipo positiveInteger-->
+      <Coste_PM>-2</Coste_PM>
+      <Descripcion>Ataca a todos los enemigos haciendo temblar el suelo.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="4">
+      <Nombre>Tiempo Muerto</Nombre>
+      <!--Valor superior al límite máximo establecido por la restricción-->
+      <Coste_PM>10</Coste_PM>
+      <Descripcion>Detiene durante un rato a todos los enemigos.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="1">
+      <Nombre>Recargar</Nombre>
+      <Coste_PM>3</Coste_PM>
+      <Descripcion>Aumenta durante un rato el poder de ataque y defensa.</Descripcion>
+   </Hab_Estrella>
+    <!--ID 0, no válido según la restricción y según el tipo (positiveInteger)-->
+   <Hab_Estrella Jugador_ID="0">
+      <Nombre>Ataque Estelar</Nombre>
+      <Coste_PM>4</Coste_PM>
+      <Descripcion>Ataca a todos los enemigos rodeados por las estrellas.</Descripcion>
+   </Hab_Estrella>
+   <!--ID negativo, no válido según la restricción-->
+   <Hab_Estrella Jugador_ID="-4">
+      <Nombre>Como Nuevo</Nombre>
+      <Coste_PM>5</Coste_PM>
+      <Descripcion>Recupera PC y PF y, además, cura a Mario y a su compañero.</Descripcion>
+   </Hab_Estrella>
+   <Hab_Estrella Jugador_ID="1">
+      <Nombre>Golpe Final</Nombre>
+      <Coste_PM>2</Coste_PM>
+      <!--Un string con una longitud maxima mayor que la establecida en la restriccion-->
+      <Descripcion>Termina con los enemigos de un golpe, realizado con toda la fuerza acumulada por el personaje durante la batalla.</Descripcion>
+   </Hab_Estrella>
+</Habs_Estrella>

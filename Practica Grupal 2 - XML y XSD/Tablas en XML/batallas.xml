@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Batallas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="batallas.xsd">
+   <Batalla Enemigo_ID="59" Jugador_ID="1">
+      <num_Turnos>3</num_Turnos>
+      <num_Ayudantes>0</num_Ayudantes>
+   </Batalla>
+   <Batalla Enemigo_ID="12" Jugador_ID="2">
+      <num_Turnos>2</num_Turnos>
+      <num_Ayudantes>3</num_Ayudantes>
+   </Batalla>
+   <Batalla Enemigo_ID="32" Jugador_ID="3">
+      <num_Turnos>10</num_Turnos>
+      <num_Ayudantes>0</num_Ayudantes>
+   </Batalla>
+   <Batalla Enemigo_ID="2" Jugador_ID="4">
+      <num_Turnos>9</num_Turnos>
+      <num_Ayudantes>2</num_Ayudantes>
+   </Batalla>
+   <Batalla Enemigo_ID="10" Jugador_ID="5">
+      <num_Turnos>3</num_Turnos>
+      <num_Ayudantes>0</num_Ayudantes>
+   </Batalla>
+   <Batalla Enemigo_ID="66" Jugador_ID="6">
+      <num_Turnos>9</num_Turnos>
+      <num_Ayudantes>0</num_Ayudantes>
+   </Batalla>
+   <Batalla Enemigo_ID="41" Jugador_ID="7">
+      <num_Turnos>4</num_Turnos>
+      <num_Ayudantes>3</num_Ayudantes>
+   </Batalla>
+   <Batalla Enemigo_ID="23" Jugador_ID="8">
+      <num_Turnos>2</num_Turnos>
+      <num_Ayudantes>1</num_Ayudantes>
+   </Batalla>
+   <Batalla Enemigo_ID="4" Jugador_ID="9">
+      <num_Turnos>6</num_Turnos>
+      <num_Ayudantes>0</num_Ayudantes>
+   </Batalla>
+   <Batalla Enemigo_ID="44" Jugador_ID="10">
+      <num_Turnos>4</num_Turnos>
+      <num_Ayudantes>0</num_Ayudantes>
+   </Batalla>
+</Batallas>

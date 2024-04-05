@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Jugadores_Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="jugador_items.xsd">
+   <Jugador_Items Jugador_ID="1">
+      <items_Nombre>Seta</items_Nombre>
+      <num_Items>100</num_Items>
+   </Jugador_Items>
+   <Jugador_Items Jugador_ID="2">
+      <items_Nombre>Espíritu</items_Nombre>
+      <num_Items>59</num_Items>
+   </Jugador_Items>
+   <Jugador_Items Jugador_ID="3">
+      <items_Nombre>Tónico</items_Nombre>
+      <num_Items>81</num_Items>
+   </Jugador_Items>
+   <Jugador_Items Jugador_ID="4">
+      <items_Nombre>Concha Protectora</items_Nombre>
+      <num_Items>99</num_Items>
+   </Jugador_Items>
+   <Jugador_Items Jugador_ID="5">
+      <items_Nombre>Chupa PC</items_Nombre>
+      <num_Items>87</num_Items>
+   </Jugador_Items>
+   <Jugador_Items Jugador_ID="6">
+      <items_Nombre>Furia trueno</items_Nombre>
+      <num_Items>30</num_Items>
+   </Jugador_Items>
+   <Jugador_Items Jugador_ID="7">
+      <items_Nombre>Flor de fuego</items_Nombre>
+      <num_Items>94</num_Items>
+   </Jugador_Items>
+   <Jugador_Items Jugador_ID="8">
+      <items_Nombre>Gelatina</items_Nombre>
+      <num_Items>75</num_Items>
+   </Jugador_Items>
+   <Jugador_Items Jugador_ID="9">
+      <items_Nombre>Oveja Sueño</items_Nombre>
+      <num_Items>85</num_Items>
+   </Jugador_Items>
+   <Jugador_Items Jugador_ID="10">
+      <items_Nombre>Capote</items_Nombre>
+      <num_Items>55</num_Items>
+   </Jugador_Items>
+</Jugadores_Items>

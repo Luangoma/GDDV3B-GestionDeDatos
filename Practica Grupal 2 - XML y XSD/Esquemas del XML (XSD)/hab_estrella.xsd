@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Habs_Estrella">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Hab_Estrella" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string"/>
+                            <xs:element name="Coste_PM" type="rangoPuntos"/>
+                            <xs:element name="Descripcion" type="longitudTexto"/>
+                        </xs:sequence>
+                        <xs:attribute name="Jugador_ID" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:positiveInteger">
+                                    <xs:minInclusive value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType> 
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    
+    <xs:simpleType name="rangoPuntos">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="5"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="longitudTexto">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

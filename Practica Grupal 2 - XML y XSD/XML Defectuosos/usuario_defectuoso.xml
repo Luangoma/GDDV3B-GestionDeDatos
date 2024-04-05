@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Usuarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="usuario.xsd">
+<!--id 0, por debajo del valor mínimo indicado en la restricción, tampoco está aceptado
+por el tipo positiveInteger-->
+   <Usuario id="0">
+      <Nombre>Alberto</Nombre>
+   </Usuario>
+   <Usuario id="2">
+      <Nombre>Alejandro</Nombre>
+   </Usuario>
+   <!--No aparece id cuando es obligatorio-->
+   <Usuario>
+      <Nombre>Blanca</Nombre>
+   </Usuario>
+   <Usuario id="4">
+      <Nombre>Carlota</Nombre>
+   </Usuario>
+   <Usuario id="5">
+      <Nombre>Emilio</Nombre>
+   </Usuario>
+   <Usuario id="6">
+      <Nombre>Héctor</Nombre>
+   </Usuario>
+   <Usuario id="7">
+      <Nombre>Irene</Nombre>
+   </Usuario>
+   <!--El id es negativo, por debajo del valor mínimo indicado en la restricción, tampoco está aceptado
+   por el tipo positiveInteger-->
+   <Usuario id="-25">
+      <Nombre>Luis</Nombre>
+   </Usuario>
+   <Usuario id="9">
+      <Nombre>Sandro</Nombre>
+   </Usuario>
+   <Usuario id="10">
+      <Nombre>Verónica</Nombre>
+   </Usuario>
+</Usuarios>

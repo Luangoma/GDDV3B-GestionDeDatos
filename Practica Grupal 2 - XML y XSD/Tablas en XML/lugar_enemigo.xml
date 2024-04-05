@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lugar_Enemigos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="lugar_enemigo.xsd">
+   <Lugar_Enemigo Nombre_Lugar="Templo Lúgubre" Enemigo_ID="31" />
+   <Lugar_Enemigo Nombre_Lugar="Llanura Estelar" Enemigo_ID="10" />
+   <Lugar_Enemigo Nombre_Lugar="Isla Trópico" Enemigo_ID="52" />
+   <Lugar_Enemigo Nombre_Lugar="Fortaleza de Piedra" Enemigo_ID="50" />
+   <Lugar_Enemigo Nombre_Lugar="Templo Lúgubre" Enemigo_ID="64" />
+   <Lugar_Enemigo Nombre_Lugar="Bomburgo" Enemigo_ID="69" />
+   <Lugar_Enemigo Nombre_Lugar="Bomburgo" Enemigo_ID="58" />
+   <Lugar_Enemigo Nombre_Lugar="Villa Viciosa" Enemigo_ID="42" />
+   <Lugar_Enemigo Nombre_Lugar="Cien Mazmorras" Enemigo_ID="30" />
+   <Lugar_Enemigo Nombre_Lugar="Subsuelo de Villa Viciosa" Enemigo_ID="18" />
+   <Lugar_Enemigo Nombre_Lugar="Llanura Estelar" Enemigo_ID="2" />
+   <Lugar_Enemigo Nombre_Lugar="Castillo de Goombaba" Enemigo_ID="20" />
+   <Lugar_Enemigo Nombre_Lugar="Camino Sombrío" Enemigo_ID="61" />
+   <Lugar_Enemigo Nombre_Lugar="Ciudad Dojo" Enemigo_ID="38" />
+   <Lugar_Enemigo Nombre_Lugar="Gran Árbol" Enemigo_ID="62" />
+   <Lugar_Enemigo Nombre_Lugar="Ciudad Dojo" Enemigo_ID="14" />
+   <Lugar_Enemigo Nombre_Lugar="Cien Mazmorras" Enemigo_ID="46" />
+   <Lugar_Enemigo Nombre_Lugar="Ciudad Dojo" Enemigo_ID="39" />
+   <Lugar_Enemigo Nombre_Lugar="Ciudad Dojo" Enemigo_ID="27" />
+   <Lugar_Enemigo Nombre_Lugar="Bosque Maravilloso" Enemigo_ID="67" />
+</Lugar_Enemigos>

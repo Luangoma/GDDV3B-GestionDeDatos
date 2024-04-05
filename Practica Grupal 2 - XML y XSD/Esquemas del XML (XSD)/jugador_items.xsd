@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Jugadores_Items">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Jugador_Items" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="items_Nombre" type="xs:string"/>
+                            <xs:element name="num_Items" type="maxObjetos"/>
+                        </xs:sequence>
+                        <xs:attribute name="Jugador_ID" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:positiveInteger">
+                                    <xs:minInclusive value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType> 
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="maxObjetos">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

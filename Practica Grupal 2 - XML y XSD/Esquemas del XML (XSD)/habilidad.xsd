@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Habilidades">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Habilidad" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="Nombre"/>
+                            <xs:element type="xs:nonNegativeInteger" name="Coste_PF"/>
+                            <xs:element type="xs:nonNegativeInteger" name="Ind_atq"/>
+                            <xs:element type="xs:nonNegativeInteger" name="Ind_def"/>
+                            <xs:element type="xs:string" name="Descripcion"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="Personaje_nom"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+  </xs:element>
+</xs:schema>

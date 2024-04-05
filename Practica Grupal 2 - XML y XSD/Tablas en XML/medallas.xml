@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<medallas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="medallas.xsd">
+    <medalla>
+        <nombre>Salto Potente</nombre>
+        <costePM>1</costePM>
+        <descripcion>Permite realizar un Salto Potente. Gasta 2 PF. Salta con mucho poder de ataque.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Multi-Rebote</nombre>
+        <costePM>1</costePM>
+        <descripcion>Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Golpe Potente</nombre>
+        <costePM>1</costePM>
+        <descripcion>Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Martillo Terremoto</nombre>
+        <costePM>2</costePM>
+        <descripcion>Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Golpe Confusión</nombre>
+        <costePM>1</costePM>
+        <descripcion>Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Doble Objeto</nombre>
+        <costePM>3</costePM>
+        <descripcion>En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Más Fuerza</nombre>
+        <costePM>6</costePM>
+        <descripcion>Incrementa los poderes de Salto y Martillo en 1 Punto.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Mega Prisa</nombre>
+        <costePM>1</costePM>
+        <descripcion>Cuando Mario está en peligro, su poder de ataque sube en 5 puntos.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Última Posibilidad</nombre>
+        <costePM>1</costePM>
+        <descripcion>Cuando Mario está en peligro, solo recibe la mitad del daño.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Más PC</nombre>
+        <costePM>3</costePM>
+        <descripcion>Incrementa los PC Máximos de Mario en 5 puntos.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Más PF</nombre>
+        <costePM>3</costePM>
+        <descripcion>Incrementa los PF Máximos en 5 puntos.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Ahorraflores</nombre>
+        <costePM>4</costePM>
+        <descripcion>En el combate, ahorra 1 PF cada vez que Mario ataca.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Anti-Pinchos</nombre>
+        <costePM>3</costePM>
+        <descripcion>Permite saltar sobre un enemigo con pinchos sin recibir daño.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Vacuna</nombre>
+        <costePM>4</costePM>
+        <descripcion>Protege a Mario de mareos y envenenamientos durante el combate.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Corazón Feliz</nombre>
+        <costePM>2</costePM>
+        <descripcion>Va recuperando los PC de Mario durante el combate.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Día Suerte</nombre>
+        <costePM>7</costePM>
+        <descripcion>Hace que el enemigo falle mucho al atacar a Mario.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Cambio Rápido</nombre>
+        <costePM>7</costePM>
+        <descripcion>Permite cambiar de compañero sin perder turno.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>FX Ataque A</nombre>
+        <costePM>0</costePM>
+        <descripcion>Cuando Mario ataca, se oye el sonido de una rana.</descripcion>
+    </medalla>
+    <medalla>
+        <nombre>Emblema L</nombre>
+        <costePM>0</costePM>
+        <descripcion>El traje de Mario se volverá como el de Luigi.</descripcion>
+    </medalla>
+</medallas>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partidas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="partida.xsd">
+   <!-- Error elementos desordenados-->
+   <Partida User_id="1" Jug_id="1">
+      <Horas>19</Horas>
+      <Nombre>Alberto</Nombre>
+   </Partida>
+   <!-- Error ids negativos-->
+   <Partida User_id="-2" Jug_id="-2">
+      <Nombre>Alejandro</Nombre>
+      <Horas>27</Horas>
+   </Partida>
+   <!-- Error ids con letras-->
+   <Partida User_id="rana" Jug_id="pepe">
+      <Nombre>Blanca</Nombre>
+      <Horas>27</Horas>
+   </Partida>
+   <!-- Error etiquetas vacias-->
+   <Partida User_id="5" Jug_id="5">
+      <Nombre></Nombre>
+      <Horas></Horas>
+   </Partida>
+   <!-- Error ids vacios -->
+   <Partida User_id="" Jug_id="">
+      <Nombre>SinId</Nombre>
+      <Horas>24</Horas>
+   </Partida>
+   <!-- Error horas negativas -->
+   <Partida User_id="7" Jug_id="7">
+      <Nombre>Irene</Nombre>
+      <Horas>-17</Horas>
+   </Partida>
+   <!-- Error ids con letras-->
+   <Partida User_id="asdf" Jug_id="asdf">
+      <Nombre>Luis</Nombre>
+      <Horas>17</Horas>
+   </Partida>
+   <!-- Error ids negativos-->
+   <Partida User_id="-1" Jug_id="-1">
+      <Nombre>Sandro</Nombre>
+      <Horas>46</Horas>
+   </Partida>
+</Partidas>

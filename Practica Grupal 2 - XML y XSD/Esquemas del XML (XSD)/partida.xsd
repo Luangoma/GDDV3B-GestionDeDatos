@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Partidas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Partida" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string"/>
+                            <xs:element name="Horas" type="xs:positiveInteger"/>
+                        </xs:sequence>
+                        <xs:attribute name="User_id" type="xs:positiveInteger"/>
+                        <xs:attribute name="Jug_id" type="xs:positiveInteger"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+  </xs:element>
+</xs:schema> 

@@ -1,0 +1,11 @@
+Jugador_ID,Puntos_corazon,Puntos_estrella,Puntos_flor,Monedas,Estado,Personaje
+1,32,0,21,104,4,Bombard
+2,34,4,30,31,1,Koops
+3,27,4,24,48,1,Bibiana
+4,18,4,26,81,2,Yoshi
+5,16,0,20,72,5,Koops
+6,19,1,30,22,1,Goomarina
+7,8,4,20,46,4,Lupina
+8,2,0,22,35,5,Claudia
+9,13,1,30,5,2,Bibiana
+10,12,1,23,97,3,Koops

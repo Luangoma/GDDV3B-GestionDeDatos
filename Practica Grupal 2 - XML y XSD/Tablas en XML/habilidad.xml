@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Habilidades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="habilidad.xsd">
+   <Habilidad Personaje_nom="Goomarina">
+      <Nombre>Cabezazo</Nombre>
+      <Coste_PF>0</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Ataca a un enemigo de un cabezazo.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Goomarina">
+      <Nombre>Descripción</Nombre>
+      <Coste_PF>0</Coste_PF>
+      <Ind_atq>0</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Muestra la descripción del enemigo y sus PC.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Goomarina">
+      <Nombre>Multicabezazo</Nombre>
+      <Coste_PF>3</Coste_PF>
+      <Ind_atq>3</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Ataca a un enemigo hasta fallar.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Goomarina">
+      <Nombre>Beso de Ánimo</Nombre>
+      <Coste_PF>4</Coste_PF>
+      <Ind_atq>0</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Hace que Mario realice dos acciones en un turno.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Koops">
+      <Nombre>Lanzaconcha</Nombre>
+      <Coste_PF>0</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Lanza la concha a un enemigo.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Koops">
+      <Nombre>Súper Concha</Nombre>
+      <Coste_PF>3</Coste_PF>
+      <Ind_atq>2</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Lanza la concha contra todos los enemigos.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Koops">
+      <Nombre>Protegeconcha</Nombre>
+      <Coste_PF>4</Coste_PF>
+      <Ind_atq>0</Ind_atq>
+      <Ind_def>3</Ind_def>
+      <Descripcion>Deja caer una concha que protege a Mario.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Koops">
+      <Nombre>Concha Furia</Nombre>
+      <Coste_PF>6</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Ataca a todos los enemigos del suelo.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Claudia">
+      <Nombre>Placaje</Nombre>
+      <Coste_PF>0</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Ataca a un enemigo aplastándolo con el cuerpo.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Claudia">
+      <Nombre>Vendaval</Nombre>
+      <Coste_PF>4</Coste_PF>
+      <Ind_atq>2</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Levanta un vendaval y lanza a los enemigos por los aires.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Claudia">
+      <Nombre>Achuchón</Nombre>
+      <Coste_PF>3</Coste_PF>
+      <Ind_atq>3</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Achucha al enemigo para drenar sus PC.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Claudia">
+      <Nombre>Cortina Humo</Nombre>
+      <Coste_PF>4</Coste_PF>
+      <Ind_atq>0</Ind_atq>
+      <Ind_def>2</Ind_def>
+      <Descripcion>Hace que Mario esquive los ataques durante un rato.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Yoshi">
+      <Nombre>Golpe Cadera</Nombre>
+      <Coste_PF>0</Coste_PF>
+      <Ind_atq>2</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Golpea al enemigo repetidamente.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Yoshi">
+      <Nombre>Engullir</Nombre>
+      <Coste_PF>4</Coste_PF>
+      <Ind_atq>3</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Engulle a un enemigo para usarlo como arma arrojadiza.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Yoshi">
+      <Nombre>Huevos Reductores</Nombre>
+      <Coste_PF>3</Coste_PF>
+      <Ind_atq>0</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Arroja huevos a los enemigos y los reduce de tamaño.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Yoshi">
+      <Nombre>Estampida</Nombre>
+      <Coste_PF>6</Coste_PF>
+      <Ind_atq>2</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Ataca a los enemigos con una estampida de Yoshis.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Bibiana">
+      <Nombre>Golpe Sombra</Nombre>
+      <Coste_PF>0</Coste_PF>
+      <Ind_atq>2</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Ataca a un enemigo con un puñetazo y le prende fuego.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Bibiana">
+      <Nombre>Transparencia</Nombre>
+      <Coste_PF>1</Coste_PF>
+      <Ind_atq>0</Ind_atq>
+      <Ind_def>3</Ind_def>
+      <Descripcion>Esconde a Mario para evitar los ataques de los enemigos.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Bibiana">
+      <Nombre>Llamarada</Nombre>
+      <Coste_PF>6</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Ataca a todos los enemigos con una llamarada.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Bibiana">
+      <Nombre>Embelesamiento</Nombre>
+      <Coste_PF>4</Coste_PF>
+      <Ind_atq>0</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Confunde a los enemigos con un beso sensual.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Bombard">
+      <Nombre>Bomba</Nombre>
+      <Coste_PF>0</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Explota atacando a un enemigo que esté en el suelo.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Bombard">
+      <Nombre>Bomba Tiempo</Nombre>
+      <Coste_PF>3</Coste_PF>
+      <Ind_atq>3</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Arroja tres bombas que explotan un turno después.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Bombard">
+      <Nombre>Mina</Nombre>
+      <Coste_PF>4</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>4</Ind_def>
+      <Descripcion>Causa daño al enemigo que ataque a Bombard.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Bombard">
+      <Nombre>Gran Explosión</Nombre>
+      <Coste_PF>9</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Explota atacando a todos los enemigos.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Lupina">
+      <Nombre>Bofetada del Amor</Nombre>
+      <Coste_PF>0</Coste_PF>
+      <Ind_atq>4</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Ataca a un enemigo de una bofetada.</Descripcion>
+   </Habilidad>
+   <Habilidad Personaje_nom="Lupina">
+      <Nombre>Beso Furtivo</Nombre>
+      <Coste_PF>2</Coste_PF>
+      <Ind_atq>0</Ind_atq>
+      <Ind_def>0</Ind_def>
+      <Descripcion>Roba los objetos y medallas que tengan los enemigos.</Descripcion>
+   </Habilidad>
+</Habilidades>

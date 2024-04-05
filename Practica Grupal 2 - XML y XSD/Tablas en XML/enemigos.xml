@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Enemigos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="enemigos.xsd">
+   <Enemigo Enemigo_ID="1" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Goomba</Nombre>
+      <Region>Diversos lugares</Region>
+      <Puntos_ataque>1</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>2</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="2" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Paragoomba</Nombre>
+      <Region>Diversos lugares</Region>
+      <Puntos_ataque>1</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>2</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="3" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Goompincho</Nombre>
+      <Region>Diversos lugares</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>2</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="4" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Híper Goomba</Nombre>
+      <Region>Camino Sombrío</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="5" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Híper Paragoomba</Nombre>
+      <Region>Camino Sombrío</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="6" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Híper Goompincho</Nombre>
+      <Region>Camino Sombrío</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="7" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Gloomba</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="8" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Paragloomba</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="9" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Gloompincho</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="10" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Koopa Troopa</Nombre>
+      <Region>Llanura Estelar</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>4</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="11" Vuela="1" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Paratroopa</Nombre>
+      <Region>Castillo de Goombaba</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>4</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="12" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Reservoir Troopa</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>4</Puntos_defensa>
+      <Puntos_corazon>4</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="13" Vuela="1" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Reservoir Para</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>4</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="14" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Antitroopa</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="15" Vuela="1" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Antipara</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="16" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Koopa Oscuro</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>2</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="17" Vuela="1" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Paratroopa Oscuro</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>2</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="18" Vuela="0" Tiene_pincho="1" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Koopatrullero</Nombre>
+      <Region>Subsuelo de Villa Viciosa</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>2</Puntos_defensa>
+      <Puntos_corazon>6</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="19" Vuela="0" Tiene_pincho="1" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Koopatrullero Oscuro</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>5</Puntos_ataque>
+      <Puntos_defensa>2</Puntos_defensa>
+      <Puntos_corazon>25</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="20" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Koopa Esqueleto</Nombre>
+      <Region>Castillo de Goombaba</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>1</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="21" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Koopa Esqueleto Rojo</Nombre>
+      <Region>Castillo de Goombaba</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="22" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Huesitos</Nombre>
+      <Region>Palacio de la Oscuridad</Region>
+      <Puntos_ataque>5</Puntos_ataque>
+      <Puntos_defensa>2</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="23" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Koopa Esqueleto Negro</Nombre>
+      <Region>Palacio de la Oscuridad</Region>
+      <Puntos_ataque>5</Puntos_ataque>
+      <Puntos_defensa>2</Puntos_defensa>
+      <Puntos_corazon>20</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="24" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Hermano Martillo</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="25" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Hermano Boomerang</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="26" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Hermano Fuego</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="27" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Lakitu</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="28" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Lakitu Oscuro</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>5</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>13</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="29" Vuela="0" Tiene_pincho="1" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Pinchón</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>3</Puntos_defensa>
+      <Puntos_corazon>3</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="30" Vuela="0" Tiene_pincho="1" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Pinchón Celeste</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>6</Puntos_ataque>
+      <Puntos_defensa>4</Puntos_defensa>
+      <Puntos_corazon>6</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="31" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Buzzy Beetle</Nombre>
+      <Region>Templo Lúgubre</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>4</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="32" Vuela="0" Tiene_pincho="1" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Punzón</Nombre>
+      <Region>Templo Lúgubre</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>4</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="33" Vuela="1" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Parabuzzy</Nombre>
+      <Region>Cueva de los Piratas</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>4</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="34" Vuela="1" Tiene_pincho="1" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Parapunzón</Nombre>
+      <Region>Estación de Riverside</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>4</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="35" Vuela="0" Tiene_pincho="1" Tiene_caparazon="1" Es_Boss="0">
+      <Nombre>Punzón Rojo</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>4</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="36" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Magikoopa</Nombre>
+      <Region>Subsuelo de Villa Viciosa</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="37" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Magikoopa Rojo</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="38" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Magikoopa Blanco</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="39" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Magikoopa Verde</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="40" Vuela="0" Tiene_pincho="0" Tiene_caparazon="1" Es_Boss="1">
+      <Nombre>Kammy Koopa</Nombre>
+      <Region>Diversos lugares</Region>
+      <Puntos_ataque>5</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>50</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="41" Vuela="0" Tiene_pincho="1" Tiene_caparazon="1" Es_Boss="1">
+      <Nombre>Bowser</Nombre>
+      <Region>Diversos lugares</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>30</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="42" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Angui Lucho</Nombre>
+      <Region>Villa Viciosa</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>20</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="43" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>El Rompehuesos</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>6</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>20</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="44" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Bandido</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="45" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Gran Bandido</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="46" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Bandido Medallas</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>5</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>12</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="47" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Farolín</Nombre>
+      <Region>Subsuelo de Villa Viciosa</Region>
+      <Puntos_ataque>1</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>3</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="48" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Farolán</Nombre>
+      <Region>Subsuelo de Villa Viciosa</Region>
+      <Puntos_ataque>1</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>3</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="49" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Farolén</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>7</Puntos_ataque>
+      <Puntos_defensa>2</Puntos_defensa>
+      <Puntos_corazon>12</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="50" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Fuzzy</Nombre>
+      <Region>Fortaleza de Piedra</Region>
+      <Puntos_ataque>1</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>3</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="51" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Fuzzy Dorado</Nombre>
+      <Region>Fortaleza de Piedra</Region>
+      <Puntos_ataque>1</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>10</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="52" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Fuzzy Bosque</Nombre>
+      <Region>Isla Trópico</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="53" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Fuzzy Flor</Nombre>
+      <Region>Isla Trópico</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>6</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="54" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Pokey</Nombre>
+      <Region>Ciudad Dojo</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>4</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="55" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Pokey Venenoso</Nombre>
+      <Region>Estación de Riverside</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="56" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Planta Piraña Gris</Nombre>
+      <Region>Bosque Maravilloso</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>4</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="57" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Piraña Pocha</Nombre>
+      <Region>Isla Trópico</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>8</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="58" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Piraña Hielo</Nombre>
+      <Region>Bomburgo</Region>
+      <Puntos_ataque>5</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>10</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="59" Vuela="0" Tiene_pincho="1" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Planta Piraña</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>9</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>15</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="60" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Margaloca</Nombre>
+      <Region>Camino Sombrío</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="61" Vuela="0" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Margamola</Nombre>
+      <Region>Camino Sombrío</Region>
+      <Puntos_ataque>20</Puntos_ataque>
+      <Puntos_defensa>1</Puntos_defensa>
+      <Puntos_corazon>20</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="62" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Aracnoide</Nombre>
+      <Region>Gran Árbol</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>5</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="63" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Arántula</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>7</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>16</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="64" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Swooper</Nombre>
+      <Region>Templo Lúgubre</Region>
+      <Puntos_ataque>3</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>6</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="65" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Supula</Nombre>
+      <Region>Palacio de la Oscuridad</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>9</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="66" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Vampirito</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>6</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>20</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="67" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Puff Oscuro</Nombre>
+      <Region>Bosque Maravilloso</Region>
+      <Puntos_ataque>2</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>3</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="68" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Ruff Puff</Nombre>
+      <Region>Estación de Riverside</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>7</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="69" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Puff Helado</Nombre>
+      <Region>Bomburgo</Region>
+      <Puntos_ataque>4</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>9</Puntos_corazon>
+   </Enemigo>
+   <Enemigo Enemigo_ID="70" Vuela="1" Tiene_pincho="0" Tiene_caparazon="0" Es_Boss="0">
+      <Nombre>Puff Venenoso</Nombre>
+      <Region>Cien Mazmorras</Region>
+      <Puntos_ataque>8</Puntos_ataque>
+      <Puntos_defensa>0</Puntos_defensa>
+      <Puntos_corazon>15</Puntos_corazon>
+   </Enemigo>
+</Enemigos>

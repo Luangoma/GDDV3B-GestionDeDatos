@@ -1,0 +1,71 @@
+Enemigo_ID,Nombre,Region,Puntos_ataque,Puntos_defensa,Puntos_corazon,Vuela,Tiene_pincho,Tiene_caparazon,Es_Boss
+1,Goomba,Diversos lugares,1,0,2,0,0,0,0
+2,Paragoomba,Diversos lugares,1,0,2,1,0,0,0
+3,Goompincho,Diversos lugares,2,0,2,0,1,0,0
+4,Híper Goomba,Camino Sombrío,2,0,8,0,0,0,0
+5,Híper Paragoomba,Camino Sombrío,2,0,8,1,0,0,0
+6,Híper Goompincho,Camino Sombrío,3,0,8,0,1,0,0
+7,Gloomba,Cien Mazmorras,3,0,7,0,0,0,0
+8,Paragloomba,Cien Mazmorras,3,0,7,1,0,0,0
+9,Gloompincho,Cien Mazmorras,4,0,7,0,1,0,0
+10,Koopa Troopa,Llanura Estelar,2,1,4,0,0,1,0
+11,Paratroopa,Castillo de Goombaba,2,1,4,1,0,1,0
+12,Reservoir Troopa,Ciudad Dojo,2,4,4,0,0,1,0
+13,Reservoir Para,Ciudad Dojo,2,1,4,1,0,1,0
+14,Antitroopa,Ciudad Dojo,3,1,8,0,0,1,0
+15,Antipara,Ciudad Dojo,3,1,8,1,0,1,0
+16,Koopa Oscuro,Cien Mazmorras,4,2,8,0,0,1,0
+17,Paratroopa Oscuro,Cien Mazmorras,4,2,8,1,0,1,0
+18,Koopatrullero,Subsuelo de Villa Viciosa,4,2,6,0,1,1,0
+19,Koopatrullero Oscuro,Ciudad Dojo,5,2,25,0,1,1,0
+20,Koopa Esqueleto,Castillo de Goombaba,2,1,1,0,0,1,0
+21,Koopa Esqueleto Rojo,Castillo de Goombaba,3,1,5,0,0,1,0
+22,Huesitos,Palacio de la Oscuridad,5,2,8,0,0,1,0
+23,Koopa Esqueleto Negro,Palacio de la Oscuridad,5,2,20,0,0,1,0
+24,Hermano Martillo,Ciudad Dojo,4,1,7,0,0,1,0
+25,Hermano Boomerang,Ciudad Dojo,2,1,7,0,0,1,0
+26,Hermano Fuego,Ciudad Dojo,3,1,7,0,0,1,0
+27,Lakitu,Ciudad Dojo,2,0,5,1,0,0,0
+28,Lakitu Oscuro,Cien Mazmorras,5,0,13,1,0,0,0
+29,Pinchón,Ciudad Dojo,3,3,3,0,1,1,0
+30,Pinchón Celeste,Cien Mazmorras,6,4,6,0,1,1,0
+31,Buzzy Beetle,Templo Lúgubre,3,4,5,0,0,1,0
+32,Punzón,Templo Lúgubre,3,4,5,0,1,1,0
+33,Parabuzzy,Cueva de los Piratas,3,4,5,1,0,1,0
+34,Parapunzón,Estación de Riverside,3,4,5,1,1,1,0
+35,Punzón Rojo,Ciudad Dojo,3,4,5,0,1,1,0
+36,Magikoopa,Subsuelo de Villa Viciosa,4,0,7,0,0,0,0
+37,Magikoopa Rojo,Ciudad Dojo,4,0,7,0,0,0,0
+38,Magikoopa Blanco,Ciudad Dojo,4,0,7,0,0,0,0
+39,Magikoopa Verde,Ciudad Dojo,4,0,7,0,0,0,0
+40,Kammy Koopa,Diversos lugares,5,0,50,0,0,1,1
+41,Bowser,Diversos lugares,3,1,30,0,1,1,1
+42,Angui Lucho,Villa Viciosa,3,0,20,0,1,0,0
+43,El Rompehuesos,Ciudad Dojo,6,0,20,0,1,0,0
+44,Bandido,Ciudad Dojo,2,0,5,0,0,0,0
+45,Gran Bandido,Ciudad Dojo,3,0,8,0,0,0,0
+46,Bandido Medallas,Cien Mazmorras,5,0,12,0,0,0,0
+47,Farolín,Subsuelo de Villa Viciosa,1,0,3,0,0,0,0
+48,Farolán,Subsuelo de Villa Viciosa,1,0,3,0,1,0,0
+49,Farolén,Cien Mazmorras,7,2,12,0,1,0,0
+50,Fuzzy,Fortaleza de Piedra,1,0,3,0,0,0,0
+51,Fuzzy Dorado,Fortaleza de Piedra,1,0,10,0,0,0,0
+52,Fuzzy Bosque,Isla Trópico,3,0,5,0,0,0,0
+53,Fuzzy Flor,Isla Trópico,3,0,6,0,0,0,0
+54,Pokey,Ciudad Dojo,3,0,4,0,1,0,0
+55,Pokey Venenoso,Estación de Riverside,4,0,8,0,1,0,0
+56,Planta Piraña Gris,Bosque Maravilloso,2,0,4,0,1,0,0
+57,Piraña Pocha,Isla Trópico,3,0,8,0,1,0,0
+58,Piraña Hielo,Bomburgo,5,0,10,0,1,0,0
+59,Planta Piraña,Cien Mazmorras,9,0,15,0,1,0,0
+60,Margaloca,Camino Sombrío,2,0,7,0,0,0,0
+61,Margamola,Camino Sombrío,20,1,20,0,0,0,0
+62,Aracnoide,Gran Árbol,2,0,5,1,0,0,0
+63,Arántula,Cien Mazmorras,7,0,16,1,0,0,0
+64,Swooper,Templo Lúgubre,3,0,6,1,0,0,0
+65,Supula,Palacio de la Oscuridad,4,0,9,1,0,0,0
+66,Vampirito,Cien Mazmorras,6,0,20,1,0,0,0
+67,Puff Oscuro,Bosque Maravilloso,2,0,3,1,0,0,0
+68,Ruff Puff,Estación de Riverside,4,0,7,1,0,0,0
+69,Puff Helado,Bomburgo,4,0,9,1,0,0,0
+70,Puff Venenoso,Cien Mazmorras,8,0,15,1,0,0,0

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partidas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="partida.xsd">
+   <Partida User_id="1" Jug_id="1">
+      <Nombre>Alberto</Nombre>
+      <Horas>19</Horas>
+   </Partida>
+   <Partida User_id="2" Jug_id="2">
+      <Nombre>Alejandro</Nombre>
+      <Horas>27</Horas>
+   </Partida>
+   <Partida User_id="3" Jug_id="3">
+      <Nombre>Blanca</Nombre>
+      <Horas>27</Horas>
+   </Partida>
+   <Partida User_id="4" Jug_id="4">
+      <Nombre>Carlota</Nombre>
+      <Horas>40</Horas>
+   </Partida>
+   <Partida User_id="5" Jug_id="5">
+      <Nombre>Emilio</Nombre>
+      <Horas>49</Horas>
+   </Partida>
+   <Partida User_id="6" Jug_id="6">
+      <Nombre>Héctor</Nombre>
+      <Horas>24</Horas>
+   </Partida>
+   <Partida User_id="7" Jug_id="7">
+      <Nombre>Irene</Nombre>
+      <Horas>17</Horas>
+   </Partida>
+   <Partida User_id="8" Jug_id="8">
+      <Nombre>Luis</Nombre>
+      <Horas>17</Horas>
+   </Partida>
+   <Partida User_id="9" Jug_id="9">
+      <Nombre>Sandro</Nombre>
+      <Horas>46</Horas>
+   </Partida>
+   <Partida User_id="10" Jug_id="10">
+      <Nombre>Verónica</Nombre>
+      <Horas>28</Horas>
+   </Partida>
+</Partidas>

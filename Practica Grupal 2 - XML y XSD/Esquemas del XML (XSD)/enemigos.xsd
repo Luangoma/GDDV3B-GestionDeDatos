@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Enemigos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Enemigo" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string"/>
+                            <xs:element name="Region" type="xs:string"/>
+                            <xs:element name="Puntos_ataque" type="xs:integer"/>
+                            <xs:element name="Puntos_defensa" type="xs:integer"/>
+                            <xs:element name="Puntos_corazon" type="xs:integer"/>
+                        </xs:sequence>
+                        <xs:attribute name="Enemigo_ID" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:positiveInteger">
+                                    <xs:minInclusive value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType> 
+                        </xs:attribute>
+                        <xs:attribute name="Vuela" type="xs:boolean" use="required"/>
+                        <xs:attribute name="Tiene_pincho" type="xs:boolean" use="required"/>
+                        <xs:attribute name="Tiene_caparazon" type="xs:boolean" use="required"/>
+                        <xs:attribute name="Es_Boss" type="xs:boolean" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

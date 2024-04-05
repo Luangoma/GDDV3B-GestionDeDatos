@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Enemigos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="enemigos.xsd">
+    <!--Enemigo_ID debe ser mínimo 1, no puede ser 0, además de que es de tipo positiveInteger-->
+    <!--Vuela es un atributo de tipo boolean, por lo que debe ser 0 o 1, no 2-->
+    <!--Tiene_pincho es un atributo de tipo boolean, por lo que debe ser 0 o 1, no 5-->
+    <!--No está presente el atributo Tiene_caparazon cuando es required-->
+    <Enemigo Enemigo_ID = "0" Vuela="2" Tiene_pincho = "5" Es_Boss="1">
+        <Nombre>Goomba</Nombre>
+        <Region>Mirrorvale</Region>
+        <!--Puntos_ataque es de tipo integer, no string-->
+        <Puntos_ataque>Veinte</Puntos_ataque>
+        <!--Puntos_defensa es de tipo integer, no string-->
+        <Puntos_defensa>Pocos</Puntos_defensa>
+        <Puntos_corazon>13</Puntos_corazon>
+    </Enemigo>
+</Enemigos>

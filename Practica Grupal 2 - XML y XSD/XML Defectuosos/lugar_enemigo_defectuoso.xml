@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lugar_Enemigos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="lugar_enemigo.xsd">
+    <!--Enemigo_ID es de tipo positiveInteger, por lo que no puede ser negativo ni tener la letra D, 
+    además de que debe ser mínimo 1-->
+    <!--No está presente el atributo Nombre_Lugar cuando es required-->
+    <Lugar_Enemigo Enemigo_ID="-2D"></Lugar_Enemigo>
+    <!--No está presente el atributo Enemigo_ID cuando es required-->
+    <Lugar_Enemigo Nombre_Lugar="Llanura Estelar"></Lugar_Enemigo>
+    <!--El atributo Enemigo_ID debe ser mínimo 1 por la restricción, además de que es positiveInteger-->
+    <Lugar_Enemigo Enemigo_ID="0" Nombre_Lugar="Llanura Estelar"></Lugar_Enemigo>
+</Lugar_Enemigos>

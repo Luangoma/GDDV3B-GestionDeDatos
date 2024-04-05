@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Personajes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="personaje.xsd">
+   <Personaje>
+      <Nombre>Goomarina</Nombre>
+      <PC>25</PC>
+      <PF>15</PF>
+      <Procedencia>Villa Viciosa</Procedencia>
+      <Descripcion>Una Goomba universitaria que aspira a ser arqueóloga.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Koops</Nombre>
+      <PC>15</PC>
+      <PF>20</PF>
+      <Procedencia>Villa Verde</Procedencia>
+      <Descripcion>Un joven Koopa que desea volverse más fuerte.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Claudia</Nombre>
+      <PC>35</PC>
+      <PF>30</PF>
+      <Procedencia>Bosque Maravilloso</Procedencia>
+      <Descripcion>¡Un espíritu nebuloso con un cuerpo que es pura dinamita!</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Yoshi</Nombre>
+      <PC>20</PC>
+      <PF>20</PF>
+      <Procedencia>Ciudad Dojo</Procedencia>
+      <Descripcion>Un Yoshi recién nacido. Pequeño pero matón.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Bibiana</Nombre>
+      <PC>25</PC>
+      <PF>25</PF>
+      <Procedencia>Villa Sombría</Procedencia>
+      <Descripcion>Este antiguo miembro del Trío de las Sombras parece una chica, pero en realidad es un chico.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Bombard</Nombre>
+      <PC>30</PC>
+      <PF>20</PF>
+      <Procedencia>Villa Viciosa</Procedencia>
+      <Descripcion>Un viejo lobo de mar Bob-omb; era el marido de Bombaret.</Descripcion>
+   </Personaje>
+   <Personaje>
+      <Nombre>Lupina</Nombre>
+      <PC>25</PC>
+      <PF>15</PF>
+      <Procedencia>Villa Viciosa</Procedencia>
+      <Descripcion>Esta ladrona en realidad es la dueña de la tienda de medallas de Villa Viciosa.</Descripcion>
+   </Personaje>
+</Personajes>

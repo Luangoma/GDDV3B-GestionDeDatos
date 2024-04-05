@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Jugadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="jugador.xsd">
+<!-- Los elementos del XML tienen un orden diferente al esperado -->
+   <Jugador id="1" Personaje="Bombard">
+      <Monedas>104</Monedas>
+      <Estado>4</Estado>
+      <PF>21</PF>
+      <PE>0</PE>
+      <PC>32</PC>
+   </Jugador>
+   <Jugador id="2" Personaje="Koops">
+      <Monedas>31</Monedas>
+      <Estado>1</Estado>
+      <PF>30</PF>
+      <PE>4</PE>
+      <PC>34</PC>
+   </Jugador>
+   <Jugador id="3" Personaje="Bibiana">
+      <Monedas>48</Monedas>
+      <Estado>1</Estado>
+      <PF>24</PF>
+      <PE>4</PE>
+      <PC>27</PC>
+   </Jugador>
+   <Jugador id="4" Personaje="Yoshi">
+      <Monedas>81</Monedas>
+      <Estado>2</Estado>
+      <PF>26</PF>
+      <PE>4</PE>
+      <PC>18</PC>
+   </Jugador>
+   <Jugador id="5" Personaje="Koops">
+      <Monedas>72</Monedas>
+      <Estado>5</Estado>
+      <PF>20</PF>
+      <PE>0</PE>
+      <PC>16</PC>
+   </Jugador>
+   <Jugador id="6" Personaje="Goomarina">
+      <Monedas>22</Monedas>
+      <Estado>1</Estado>
+      <PF>30</PF>
+      <PE>1</PE>
+      <PC>19</PC>
+   </Jugador>
+   <Jugador id="7" Personaje="Lupina">
+      <Monedas>46</Monedas>
+      <Estado>4</Estado>
+      <PF>20</PF>
+      <PE>4</PE>
+      <PC>8</PC>
+   </Jugador>
+   <Jugador id="8" Personaje="Claudia">
+      <Monedas>35</Monedas>
+      <Estado>5</Estado>
+      <PF>22</PF>
+      <PE>0</PE>
+      <PC>2</PC>
+   </Jugador>
+   <Jugador id="9" Personaje="Bibiana">
+      <Monedas>5</Monedas>
+      <Estado>2</Estado>
+      <PF>30</PF>
+      <PE>1</PE>
+      <PC>13</PC>
+   </Jugador>
+   <Jugador id="10" Personaje="Koops">
+      <Monedas>97</Monedas>
+      <Estado>3</Estado>
+      <PF>23</PF>
+      <PE>1</PE>
+      <PC>12</PC>
+   </Jugador>
+</Jugadores>

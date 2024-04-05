@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Personajes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Personaje" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string"/>
+                            <xs:element name="PC" type="rangoPuntos"/>
+                            <xs:element name="PF" type="rangoPuntos"/>
+                            <xs:element name="Procedencia" type="xs:string"/>
+                            <xs:element name="Descripcion" type="longitudTexto"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="rangoPuntos">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="5"/>
+            <xs:maxInclusive value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="longitudTexto">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="30"/>
+            <xs:maxLength value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

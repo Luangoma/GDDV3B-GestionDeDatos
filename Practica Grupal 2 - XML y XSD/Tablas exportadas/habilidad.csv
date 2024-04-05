@@ -1,0 +1,27 @@
+Nombre,Coste_PF,Indice_ataque,Indice_defensa,Descripcion,Personaje_Nombre
+Cabezazo,0,4,0,Ataca a un enemigo de un cabezazo.,Goomarina
+Descripción,0,0,0,Muestra la descripción del enemigo y sus PC.,Goomarina
+Multicabezazo,3,3,0,Ataca a un enemigo hasta fallar.,Goomarina
+Beso de Ánimo,4,0,0,Hace que Mario realice dos acciones en un turno.,Goomarina
+Lanzaconcha,0,4,0,Lanza la concha a un enemigo.,Koops
+Súper Concha,3,2,0,Lanza la concha contra todos los enemigos.,Koops
+Protegeconcha,4,0,3,Deja caer una concha que protege a Mario.,Koops
+Concha Furia,6,4,0,Ataca a todos los enemigos del suelo.,Koops
+Placaje,0,4,0,Ataca a un enemigo aplastándolo con el cuerpo.,Claudia
+Vendaval,4,2,0,Levanta un vendaval y lanza a los enemigos por los aires.,Claudia
+Achuchón,3,3,0,Achucha al enemigo para drenar sus PC.,Claudia
+Cortina Humo,4,0,2,Hace que Mario esquive los ataques durante un rato.,Claudia
+Golpe Cadera,0,2,0,Golpea al enemigo repetidamente.,Yoshi
+Engullir,4,3,0,Engulle a un enemigo para usarlo como arma arrojadiza.,Yoshi
+Huevos Reductores,3,0,0,Arroja huevos a los enemigos y los reduce de tamaño.,Yoshi
+Estampida,6,2,0,Ataca a los enemigos con una estampida de Yoshis.,Yoshi
+Golpe Sombra,0,2,0,Ataca a un enemigo con un puñetazo y le prende fuego.,Bibiana
+Transparencia,1,0,3,Esconde a Mario para evitar los ataques de los enemigos.,Bibiana
+Llamarada,6,4,0,Ataca a todos los enemigos con una llamarada.,Bibiana
+Embelesamiento,4,0,0,Confunde a los enemigos con un beso sensual.,Bibiana
+Bomba,0,4,0,Explota atacando a un enemigo que esté en el suelo.,Bombard
+Bomba Tiempo,3,3,0,Arroja tres bombas que explotan un turno después.,Bombard
+Mina,4,4,4,Causa daño al enemigo que ataque a Bombard.,Bombard
+Gran Explosión,9,4,0,Explota atacando a todos los enemigos.,Bombard
+Bofetada del Amor,0,4,0,Ataca a un enemigo de una bofetada.,Lupina
+Beso Furtivo,2,0,0,Roba los objetos y medallas que tengan los enemigos.,Lupina
