@@ -1,0 +1,61 @@
+{
+  "@noNamespaceSchemaLocation": "personaje.xsd",
+  "Personaje": [
+    {
+      "Nombre": "Goomarina",
+      "PC": "25",
+      "PF": "15",
+      "Procedencia": "Villa Viciosa",
+      "Descripcion": "Una Goomba universitaria que aspira a ser arqueóloga.",
+      "Habilidades":["array"]
+    },
+    {
+      "Nombre": "Koops",
+      "PC": "15",
+      "PF": "20",
+      "Procedencia": "Villa Verde",
+      "Descripcion": "Un joven Koopa que desea volverse más fuerte.",
+      "Habilidades":["array"]
+    },
+    {
+      "Nombre": "Claudia",
+      "PC": "35",
+      "PF": "30",
+      "Procedencia": "Bosque Maravilloso",
+      "Descripcion": "¡Un espíritu nebuloso con un cuerpo que es pura dinamita!",
+      "Habilidades":["array"]
+    },
+    {
+      "Nombre": "Yoshi",
+      "PC": "20",
+      "PF": "20",
+      "Procedencia": "Ciudad Dojo",
+      "Descripcion": "Un Yoshi recién nacido. Pequeño pero matón.",
+      "Habilidades":["array"]
+    },
+    {
+      "Nombre": "Bibiana",
+      "PC": "25",
+      "PF": "25",
+      "Procedencia": "Villa Sombría",
+      "Descripcion": "Este antiguo miembro del Trío de las Sombras parece una chica, pero en realidad es un chico.",
+      "Habilidades":["array"]
+    },
+    {
+      "Nombre": "Bombard",
+      "PC": "30",
+      "PF": "20",
+      "Procedencia": "Villa Viciosa",
+      "Descripcion": "Un viejo lobo de mar Bob-omb; era el marido de Bombaret.",
+      "Habilidades":["array"]
+    },
+    {
+      "Nombre": "Lupina",
+      "PC": "25",
+      "PF": "15",
+      "Procedencia": "Villa Viciosa",
+      "Descripcion": "Esta ladrona en realidad es la dueña de la tienda de medallas de Villa Viciosa.",
+      "Habilidades":["array"]
+    }
+  ]
+}

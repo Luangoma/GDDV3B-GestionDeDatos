@@ -1,0 +1,47 @@
+{
+  "@noNamespaceSchemaLocation": "hab_estrella.xsd",
+  "Hab_Estrella": [
+    {
+      "@Jugador_ID": "6",
+      "Nombre": "Recuperar",
+      "Coste_PM": "1",
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "@Jugador_ID": "7",
+      "Nombre": "Terremoto",
+      "Coste_PM": "2",
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "@Jugador_ID": "4",
+      "Nombre": "Tiempo Muerto",
+      "Coste_PM": "2",
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "@Jugador_ID": "1",
+      "Nombre": "Recargar",
+      "Coste_PM": "3",
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "@Jugador_ID": "5",
+      "Nombre": "Ataque Estelar",
+      "Coste_PM": "4",
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "@Jugador_ID": "4",
+      "Nombre": "Como Nuevo",
+      "Coste_PM": "5",
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    },
+    {
+      "@Jugador_ID": "1",
+      "Nombre": "Golpe Final",
+      "Coste_PM": "2",
+      "Descripcion": "Termina con los enemigos de un golpe."
+    }
+  ]
+}

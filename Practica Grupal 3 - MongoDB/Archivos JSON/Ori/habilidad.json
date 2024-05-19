@@ -1,0 +1,210 @@
+[
+  {
+    "@Personaje_nom": "Goomarina",
+    "Nombre": "Cabezazo",
+    "Coste_PF": "0",
+    "Ind_atq": "4",
+    "Ind_def": "0",
+    "Descripcion": "Ataca a un enemigo de un cabezazo."
+  },
+  {
+    "@Personaje_nom": "Goomarina",
+    "Nombre": "Descripción",
+    "Coste_PF": "0",
+    "Ind_atq": "0",
+    "Ind_def": "0",
+    "Descripcion": "Muestra la descripción del enemigo y sus PC."
+  },
+  {
+    "@Personaje_nom": "Goomarina",
+    "Nombre": "Multicabezazo",
+    "Coste_PF": "3",
+    "Ind_atq": "3",
+    "Ind_def": "0",
+    "Descripcion": "Ataca a un enemigo hasta fallar."
+  },
+  {
+    "@Personaje_nom": "Goomarina",
+    "Nombre": "Beso de Ánimo",
+    "Coste_PF": "4",
+    "Ind_atq": "0",
+    "Ind_def": "0",
+    "Descripcion": "Hace que Mario realice dos acciones en un turno."
+  },
+  {
+    "@Personaje_nom": "Koops",
+    "Nombre": "Lanzaconcha",
+    "Coste_PF": "0",
+    "Ind_atq": "4",
+    "Ind_def": "0",
+    "Descripcion": "Lanza la concha a un enemigo."
+  },
+  {
+    "@Personaje_nom": "Koops",
+    "Nombre": "Súper Concha",
+    "Coste_PF": "3",
+    "Ind_atq": "2",
+    "Ind_def": "0",
+    "Descripcion": "Lanza la concha contra todos los enemigos."
+  },
+  {
+    "@Personaje_nom": "Koops",
+    "Nombre": "Protegeconcha",
+    "Coste_PF": "4",
+    "Ind_atq": "0",
+    "Ind_def": "3",
+    "Descripcion": "Deja caer una concha que protege a Mario."
+  },
+  {
+    "@Personaje_nom": "Koops",
+    "Nombre": "Concha Furia",
+    "Coste_PF": "6",
+    "Ind_atq": "4",
+    "Ind_def": "0",
+    "Descripcion": "Ataca a todos los enemigos del suelo."
+  },
+  {
+    "@Personaje_nom": "Claudia",
+    "Nombre": "Placaje",
+    "Coste_PF": "0",
+    "Ind_atq": "4",
+    "Ind_def": "0",
+    "Descripcion": "Ataca a un enemigo aplastándolo con el cuerpo."
+  },
+  {
+    "@Personaje_nom": "Claudia",
+    "Nombre": "Vendaval",
+    "Coste_PF": "4",
+    "Ind_atq": "2",
+    "Ind_def": "0",
+    "Descripcion": "Levanta un vendaval y lanza a los enemigos por los aires."
+  },
+  {
+    "@Personaje_nom": "Claudia",
+    "Nombre": "Achuchón",
+    "Coste_PF": "3",
+    "Ind_atq": "3",
+    "Ind_def": "0",
+    "Descripcion": "Achucha al enemigo para drenar sus PC."
+  },
+  {
+    "@Personaje_nom": "Claudia",
+    "Nombre": "Cortina Humo",
+    "Coste_PF": "4",
+    "Ind_atq": "0",
+    "Ind_def": "2",
+    "Descripcion": "Hace que Mario esquive los ataques durante un rato."
+  },
+  {
+    "@Personaje_nom": "Yoshi",
+    "Nombre": "Golpe Cadera",
+    "Coste_PF": "0",
+    "Ind_atq": "2",
+    "Ind_def": "0",
+    "Descripcion": "Golpea al enemigo repetidamente."
+  },
+  {
+    "@Personaje_nom": "Yoshi",
+    "Nombre": "Engullir",
+    "Coste_PF": "4",
+    "Ind_atq": "3",
+    "Ind_def": "0",
+    "Descripcion": "Engulle a un enemigo para usarlo como arma arrojadiza."
+  },
+  {
+    "@Personaje_nom": "Yoshi",
+    "Nombre": "Huevos Reductores",
+    "Coste_PF": "3",
+    "Ind_atq": "0",
+    "Ind_def": "0",
+    "Descripcion": "Arroja huevos a los enemigos y los reduce de tamaño."
+  },
+  {
+    "@Personaje_nom": "Yoshi",
+    "Nombre": "Estampida",
+    "Coste_PF": "6",
+    "Ind_atq": "2",
+    "Ind_def": "0",
+    "Descripcion": "Ataca a los enemigos con una estampida de Yoshis."
+  },
+  {
+    "@Personaje_nom": "Bibiana",
+    "Nombre": "Golpe Sombra",
+    "Coste_PF": "0",
+    "Ind_atq": "2",
+    "Ind_def": "0",
+    "Descripcion": "Ataca a un enemigo con un puñetazo y le prende fuego."
+  },
+  {
+    "@Personaje_nom": "Bibiana",
+    "Nombre": "Transparencia",
+    "Coste_PF": "1",
+    "Ind_atq": "0",
+    "Ind_def": "3",
+    "Descripcion": "Esconde a Mario para evitar los ataques de los enemigos."
+  },
+  {
+    "@Personaje_nom": "Bibiana",
+    "Nombre": "Llamarada",
+    "Coste_PF": "6",
+    "Ind_atq": "4",
+    "Ind_def": "0",
+    "Descripcion": "Ataca a todos los enemigos con una llamarada."
+  },
+  {
+    "@Personaje_nom": "Bibiana",
+    "Nombre": "Embelesamiento",
+    "Coste_PF": "4",
+    "Ind_atq": "0",
+    "Ind_def": "0",
+    "Descripcion": "Confunde a los enemigos con un beso sensual."
+  },
+  {
+    "@Personaje_nom": "Bombard",
+    "Nombre": "Bomba",
+    "Coste_PF": "0",
+    "Ind_atq": "4",
+    "Ind_def": "0",
+    "Descripcion": "Explota atacando a un enemigo que esté en el suelo."
+  },
+  {
+    "@Personaje_nom": "Bombard",
+    "Nombre": "Bomba Tiempo",
+    "Coste_PF": "3",
+    "Ind_atq": "3",
+    "Ind_def": "0",
+    "Descripcion": "Arroja tres bombas que explotan un turno después."
+  },
+  {
+    "@Personaje_nom": "Bombard",
+    "Nombre": "Mina",
+    "Coste_PF": "4",
+    "Ind_atq": "4",
+    "Ind_def": "4",
+    "Descripcion": "Causa daño al enemigo que ataque a Bombard."
+  },
+  {
+    "@Personaje_nom": "Bombard",
+    "Nombre": "Gran Explosión",
+    "Coste_PF": "9",
+    "Ind_atq": "4",
+    "Ind_def": "0",
+    "Descripcion": "Explota atacando a todos los enemigos."
+  },
+  {
+    "@Personaje_nom": "Lupina",
+    "Nombre": "Bofetada del Amor",
+    "Coste_PF": "0",
+    "Ind_atq": "4",
+    "Ind_def": "0",
+    "Descripcion": "Ataca a un enemigo de una bofetada."
+  },
+  {
+    "@Personaje_nom": "Lupina",
+    "Nombre": "Beso Furtivo",
+    "Coste_PF": "2",
+    "Ind_atq": "0",
+    "Ind_def": "0",
+    "Descripcion": "Roba los objetos y medallas que tengan los enemigos."
+  }
+]

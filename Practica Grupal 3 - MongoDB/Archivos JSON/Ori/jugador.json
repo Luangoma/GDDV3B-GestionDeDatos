@@ -1,0 +1,95 @@
+{
+  "@noNamespaceSchemaLocation": "jugador.xsd",
+  "Jugador": [
+    {
+      "@id": "1",
+      "@Personaje": "Bombard",
+      "PC": "32",
+      "PE": "0",
+      "PF": "21",
+      "Monedas": "104",
+      "Estado": "4"
+    },
+    {
+      "@id": "2",
+      "@Personaje": "Koops",
+      "PC": "34",
+      "PE": "4",
+      "PF": "30",
+      "Monedas": "31",
+      "Estado": "1"
+    },
+    {
+      "@id": "3",
+      "@Personaje": "Bibiana",
+      "PC": "27",
+      "PE": "4",
+      "PF": "24",
+      "Monedas": "48",
+      "Estado": "1"
+    },
+    {
+      "@id": "4",
+      "@Personaje": "Yoshi",
+      "PC": "18",
+      "PE": "4",
+      "PF": "26",
+      "Monedas": "81",
+      "Estado": "2"
+    },
+    {
+      "@id": "5",
+      "@Personaje": "Koops",
+      "PC": "16",
+      "PE": "0",
+      "PF": "20",
+      "Monedas": "72",
+      "Estado": "5"
+    },
+    {
+      "@id": "6",
+      "@Personaje": "Goomarina",
+      "PC": "19",
+      "PE": "1",
+      "PF": "30",
+      "Monedas": "22",
+      "Estado": "1"
+    },
+    {
+      "@id": "7",
+      "@Personaje": "Lupina",
+      "PC": "8",
+      "PE": "4",
+      "PF": "20",
+      "Monedas": "46",
+      "Estado": "4"
+    },
+    {
+      "@id": "8",
+      "@Personaje": "Claudia",
+      "PC": "2",
+      "PE": "0",
+      "PF": "22",
+      "Monedas": "35",
+      "Estado": "5"
+    },
+    {
+      "@id": "9",
+      "@Personaje": "Bibiana",
+      "PC": "13",
+      "PE": "1",
+      "PF": "30",
+      "Monedas": "5",
+      "Estado": "2"
+    },
+    {
+      "@id": "10",
+      "@Personaje": "Koops",
+      "PC": "12",
+      "PE": "1",
+      "PF": "23",
+      "Monedas": "97",
+      "Estado": "3"
+    }
+  ]
+}

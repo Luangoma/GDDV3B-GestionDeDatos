@@ -1,0 +1,97 @@
+[
+  {
+    "nombre": "Salto Potente",
+    "costePM": "1",
+    "descripcion": "Permite realizar un Salto Potente. Gasta 2 PF. Salta con mucho poder de ataque."
+  },
+  {
+    "nombre": "Multi-Rebote",
+    "costePM": "1",
+    "descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+  },
+  {
+    "nombre": "Golpe Potente",
+    "costePM": "1",
+    "descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+  },
+  {
+    "nombre": "Martillo Terremoto",
+    "costePM": "2",
+    "descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+  },
+  {
+    "nombre": "Golpe Confusión",
+    "costePM": "1",
+    "descripcion": "Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso."
+  },
+  {
+    "nombre": "Doble Objeto",
+    "costePM": "3",
+    "descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+  },
+  {
+    "nombre": "Más Fuerza",
+    "costePM": "6",
+    "descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+  },
+  {
+    "nombre": "Mega Prisa",
+    "costePM": "1",
+    "descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+  },
+  {
+    "nombre": "Última Posibilidad",
+    "costePM": "1",
+    "descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+  },
+  {
+    "nombre": "Más PC",
+    "costePM": "3",
+    "descripcion": "Incrementa los PC Máximos de Mario en 5 puntos."
+  },
+  {
+    "nombre": "Más PF",
+    "costePM": "3",
+    "descripcion": "Incrementa los PF Máximos en 5 puntos."
+  },
+  {
+    "nombre": "Ahorraflores",
+    "costePM": "4",
+    "descripcion": "En el combate, ahorra 1 PF cada vez que Mario ataca."
+  },
+  {
+    "nombre": "Anti-Pinchos",
+    "costePM": "3",
+    "descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+  },
+  {
+    "nombre": "Vacuna",
+    "costePM": "4",
+    "descripcion": "Protege a Mario de mareos y envenenamientos durante el combate."
+  },
+  {
+    "nombre": "Corazón Feliz",
+    "costePM": "2",
+    "descripcion": "Va recuperando los PC de Mario durante el combate."
+  },
+  {
+    "nombre": "Día Suerte",
+    "costePM": "7",
+    "descripcion": "Hace que el enemigo falle mucho al atacar a Mario."
+  },
+  {
+    "nombre": "Cambio Rápido",
+    "costePM": "7",
+    "descripcion": "Permite cambiar de compañero sin perder turno."
+  },
+  {
+    "nombre": "FX Ataque A",
+    "costePM": "0",
+    "descripcion": "Cuando Mario ataca, se oye el sonido de una rana."
+  },
+  {
+    "nombre": "Emblema L",
+    "costePM": "0",
+    "descripcion": "El traje de Mario se volverá como el de Luigi."
+  }
+]

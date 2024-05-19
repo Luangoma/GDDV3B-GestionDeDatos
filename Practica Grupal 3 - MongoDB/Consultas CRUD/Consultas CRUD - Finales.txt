@@ -1,0 +1,102 @@
+Consultas CRUD
+
+Simples:
+--------
+
+-- Todos los jugadores con más de 50 monedas y 30 puntos flor.
+
+db.Jugadores.find({Monedas:{$gt:50}, PF:{$gt:30}})
+
+-- Todas las habilidades estrella que consuman más de 4 puntos estrella.
+db.Jugadores.aggregate([
+  {
+    $unwind: "$HabEstrella" // Descomponer el array "HabEstrella" en documentos individuales
+  },
+  {
+    $match: {
+      "HabEstrella.CostePE": { $gt: 4 } // Filtrar habilidades estrella con un coste mayor a 1
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      Nombre: "$HabEstrella.Nombre",
+      CostePE: "$HabEstrella.CostePE",
+      Descripcion: "$HabEstrella.Descripcion"
+    }
+  }
+])
+
+-- Todos los lugares donde haya más de 10 enemigos y 5 NPCs.
+
+db.Lugares.find({$and: [{"Enemigos":{$gt:10}}, {"NPCs":{$gt:5}}]}, {"_id": 0, "Nombre": 1})
+
+Compuestas:
+-----------
+
+-- Todos los enemigos que vuelan que vivan en X región.
+
+db.Enemigos.aggregate([ { $lookup: { from: "Lugares", localField: "Region.$id", foreignField: "_id", as: "Enemigos_Lugares" }}, {$unwind:"$Enemigos_Lugares"}, { $match: { "Enemigos_Lugares.Nombre": "Llanura Estelar" }}, { $match: { "Vuela": true }}, {$project:{_id:0,Nombre:1}}])
+
+-- La descripción de un ítem cuyo nombre sea X del jugador con id X.
+
+db.Jugadores.aggregate([
+  {
+    $match: { "_id": "player01" } // Seleccionar id jugador
+  },
+  {
+    $unwind: "$Items" // Descomponer array
+  },
+  {
+    $match: { "Items.Nombre": "Seta" } // Filtrar por nombre
+  },
+  {
+    $project: {
+      _id: 0,
+      Descripcion: "$Items.Descripcion"
+    }
+  }
+])
+
+
+-- Mostrar el nombre de los enemigos que se han enfrentado al jugador con id X.
+
+db.Batallas.aggregate({$match:{"Jugador.$id":'player02'}},
+{$lookup:{from:'Enemigos',localField:'Enemigo.$id',foreignField:'_id',as:'enemigo_info'}},{$unwind:'$enemigo_info'},
+{$project:{_id:0,Nombre:'$enemigo_info.Nombre'}});
+
+Agrupadas:
+----------
+
+– Agrupar las habilidades estrella según su coste y mostrar cuántas habilidades
+hay de cada coste.
+
+db.Jugadores.aggregate([
+    { $unwind: "$HabEstrella" },
+    {
+        $group: {
+            _id: "$HabEstrella.CostePE",
+            count: { $sum: 1 }
+        }
+    }
+])
+
+– Calcular la media de PC de los personajes según su procedencia.
+
+db.Acompañantes.aggregate([{$group:{_id:'$Procedencia',avgPC:{$avg:'$PC'}}},{$project:{Procedencia:'$_id',avgPC:{$round:['$avgPC',2]}}}]);
+
+– Calcular el número total de ítems de los jugadores.
+
+db.Jugadores.aggregate([
+  {
+    $project: {
+      itemCount: { $size: "$Items" }
+    }
+  },
+  {
+    $group: {
+      _id: null,
+      totalItems: { $sum: "$itemCount" }
+    }
+  }
+])

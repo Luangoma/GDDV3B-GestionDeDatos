@@ -1,0 +1,107 @@
+[
+  {
+    "Nombre": "Villa Viciosa",
+    "Npc": "15",
+    "Enemigos": "14"
+  },
+  {
+    "Nombre": "Subsuelo de Villa Viciosa",
+    "Npc": "13",
+    "Enemigos": "8"
+  },
+  {
+    "Nombre": "Llanura Estelar",
+    "Npc": "14",
+    "Enemigos": "9"
+  },
+  {
+    "Nombre": "Villa Verde",
+    "Npc": "7",
+    "Enemigos": "0"
+  },
+  {
+    "Nombre": "Fortaleza de Piedra",
+    "Npc": "8",
+    "Enemigos": "13"
+  },
+  {
+    "Nombre": "Castillo de Goombaba",
+    "Npc": "12",
+    "Enemigos": "17"
+  },
+  {
+    "Nombre": "Bosque Maravilloso",
+    "Npc": "17",
+    "Enemigos": "19"
+  },
+  {
+    "Nombre": "Gran Árbol",
+    "Npc": "12",
+    "Enemigos": "8"
+  },
+  {
+    "Nombre": "Casa de Claudia",
+    "Npc": "7",
+    "Enemigos": "0"
+  },
+  {
+    "Nombre": "Ciudad Dojo",
+    "Npc": "9",
+    "Enemigos": "16"
+  },
+  {
+    "Nombre": "Villa Sombría",
+    "Npc": "18",
+    "Enemigos": "20"
+  },
+  {
+    "Nombre": "Camino Sombrío",
+    "Npc": "16",
+    "Enemigos": "18"
+  },
+  {
+    "Nombre": "Templo Lúgubre",
+    "Npc": "12",
+    "Enemigos": "9"
+  },
+  {
+    "Nombre": "Isla Trópico",
+    "Npc": "11",
+    "Enemigos": "5"
+  },
+  {
+    "Nombre": "Cueva de los Piratas",
+    "Npc": "11",
+    "Enemigos": "20"
+  },
+  {
+    "Nombre": "Estación de Riverside",
+    "Npc": "9",
+    "Enemigos": "16"
+  },
+  {
+    "Nombre": "Villa Preciosa",
+    "Npc": "18",
+    "Enemigos": "0"
+  },
+  {
+    "Nombre": "Bomburgo",
+    "Npc": "12",
+    "Enemigos": "14"
+  },
+  {
+    "Nombre": "La Luna",
+    "Npc": "7",
+    "Enemigos": "6"
+  },
+  {
+    "Nombre": "Palacio de la Oscuridad",
+    "Npc": "8",
+    "Enemigos": "11"
+  },
+  {
+    "Nombre": "Cien Mazmorras",
+    "Npc": "15",
+    "Enemigos": "7"
+  }
+]

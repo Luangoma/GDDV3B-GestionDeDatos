@@ -1,0 +1,325 @@
+[{
+  "_id": "battle013",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy054"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player13"
+  },
+  "NumTurnos": 2,
+  "NumAyuda": 2
+},
+{
+  "_id": "battle005",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy010"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player05"
+  },
+  "NumTurnos": 4,
+  "NumAyuda": 0
+},
+{
+  "_id": "battle001",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy059"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player01"
+  },
+  "NumTurnos": 1,
+  "NumAyuda": 2
+},
+{
+  "_id": "battle003",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy032"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player03"
+  },
+  "NumTurnos": 3,
+  "NumAyuda": 5
+},
+{
+  "_id": "battle016",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy005"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player16"
+  },
+  "NumTurnos": 3,
+  "NumAyuda": 4
+},
+{
+  "_id": "battle018",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy063"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player18"
+  },
+  "NumTurnos": 1,
+  "NumAyuda": 3
+},
+{
+  "_id": "battle025",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy056"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player25"
+  },
+  "NumTurnos": 4,
+  "NumAyuda": 3
+},
+{
+  "_id": "battle007",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy041"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player07"
+  },
+  "NumTurnos": 6,
+  "NumAyuda": 1
+},
+{
+  "_id": "battle012",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy018"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player12"
+  },
+  "NumTurnos": 8,
+  "NumAyuda": 3
+},
+{
+  "_id": "battle014",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy052"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player14"
+  },
+  "NumTurnos": 9,
+  "NumAyuda": 4
+},
+{
+  "_id": "battle017",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy045"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player17"
+  },
+  "NumTurnos": 6,
+  "NumAyuda": 1
+},
+{
+  "_id": "battle021",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy009"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player21"
+  },
+  "NumTurnos": 1,
+  "NumAyuda": 2
+},
+{
+  "_id": "battle024",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy055"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player24"
+  },
+  "NumTurnos": 3,
+  "NumAyuda": 5
+},
+{
+  "_id": "battle004",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy002"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player04"
+  },
+  "NumTurnos": 8,
+  "NumAyuda": 0
+},
+{
+  "_id": "battle006",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy066"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player06"
+  },
+  "NumTurnos": 7,
+  "NumAyuda": 2
+},
+{
+  "_id": "battle015",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy047"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player15"
+  },
+  "NumTurnos": 6,
+  "NumAyuda": 0
+},
+{
+  "_id": "battle019",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy014"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player19"
+  },
+  "NumTurnos": 2,
+  "NumAyuda": 2
+},
+{
+  "_id": "battle020",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy003"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player20"
+  },
+  "NumTurnos": 9,
+  "NumAyuda": 4
+},
+{
+  "_id": "battle022",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy016"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player22"
+  },
+  "NumTurnos": 4,
+  "NumAyuda": 0
+},
+{
+  "_id": "battle023",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy069"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player23"
+  },
+  "NumTurnos": 4,
+  "NumAyuda": 4
+},
+{
+  "_id": "battle002",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy012"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player02"
+  },
+  "NumTurnos": 10,
+  "NumAyuda": 1
+},
+{
+  "_id": "battle008",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy023"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player08"
+  },
+  "NumTurnos": 8,
+  "NumAyuda": 4
+},
+{
+  "_id": "battle009",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy004"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player09"
+  },
+  "NumTurnos": 3,
+  "NumAyuda": 3
+},
+{
+  "_id": "battle010",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy044"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player10"
+  },
+  "NumTurnos": 2,
+  "NumAyuda": 0
+},
+{
+  "_id": "battle011",
+  "Enemigo": {
+    "$ref": "Enemigos",
+    "$id": "enemy033"
+  },
+  "Jugador": {
+    "$ref": "Jugadores",
+    "$id": "player11"
+  },
+  "NumTurnos": 3,
+  "NumAyuda": 5
+}]

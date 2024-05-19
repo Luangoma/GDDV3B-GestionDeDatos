@@ -1,0 +1,69 @@
+{
+  "@noNamespaceSchemaLocation": "Items.xsd",
+  "item": [
+    {
+      "nombre": "Seta",
+      "descripcion": "Recupera 5 PC."
+    },
+    {
+      "nombre": "Gelatina",
+      "descripcion": "Recupera 5 PF."
+    },
+    {
+      "nombre": "Ultra Seta",
+      "descripcion": "Recupera 15 PC."
+    },
+    {
+      "nombre": "Grandimiel",
+      "descripcion": "Recupera 15 PF."
+    },
+    {
+      "nombre": "Flor de fuego",
+      "descripcion": "Quita 3 PC a todos los enemigos."
+    },
+    {
+      "nombre": "Bloque POW",
+      "descripcion": "Quita 2 PC a todos los enemigos y da vuelta a enemigos con caparazón"
+    },
+    {
+      "nombre": "Furia Trueno",
+      "descripcion": "Quita 4 PC a todos los enemigos."
+    },
+    {
+      "nombre": "Estrella Fugaz",
+      "descripcion": "Quita 6 PC a todos los enemigos."
+    },
+    {
+      "nombre": "Tónico",
+      "descripcion": "Cura estados."
+    },
+    {
+      "nombre": "Espíritu",
+      "descripcion": "Te cubre de ataques enemigos."
+    },
+    {
+      "nombre": "Disco Mareo",
+      "descripcion": "Marea a los enemigos."
+    },
+    {
+      "nombre": "Don Blandito",
+      "descripcion": "Reduce el ataque de los enemigos."
+    },
+    {
+      "nombre": "Concha Protectora",
+      "descripcion": "Te protege de ataques enemigos."
+    },
+    {
+      "nombre": "Capote",
+      "descripcion": "Esquiva ataques de enemigos"
+    },
+    {
+      "nombre": "Chupa PC",
+      "descripcion": "Quita PC a un enemigo y se lo da a tu personaje."
+    },
+    {
+      "nombre": "Oveja Sueño",
+      "descripcion": "Duerme a los enemigos."
+    }
+  ]
+}

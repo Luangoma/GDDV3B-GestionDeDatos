@@ -1,0 +1,2349 @@
+[{
+  "_id": "player02",
+  "Nombre": "Emily",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character04"
+  },
+  "PC": 18,
+  "PF": 16,
+  "PE": 0,
+  "Monedas": 58,
+  "PuntosNivel": 80,
+  "Estado": 3,
+  "Medallas": [
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Doble Objeto",
+      "CostePM": 3,
+      "Descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Grandimiel",
+      "Descripcion": "Recupera 15 PF."
+    },
+    {
+      "Nombre": "Flor de fuego",
+      "Descripcion": "Quita 3 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Bloque POW",
+      "Descripcion": "Quita 2 PC a todos los enemigos y da vuelta a enemigos con caparazón"
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    }
+  ],
+  "HorasJugadas": 31,
+  "UltimaVez": "2023-09-20 15:13:40",
+  "Progreso": "43,4%"
+},
+{
+  "_id": "player03",
+  "Nombre": "Michael",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character04"
+  },
+  "PC": 32,
+  "PF": 8,
+  "PE": 5,
+  "Monedas": 84,
+  "PuntosNivel": 13,
+  "Estado": 4,
+  "Medallas": [
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    },
+    {
+      "Nombre": "Más PC",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PC Máximos de Mario en 5 puntos."
+    },
+    {
+      "Nombre": "Anti-Pinchos",
+      "CostePM": 3,
+      "Descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+    },
+    {
+      "Nombre": "Vacuna",
+      "CostePM": 4,
+      "Descripcion": "Protege a Mario de mareos y envenenamientos durante el combate."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Furia trueno",
+      "Descripcion": "Quita 4 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Estrella Fugaz",
+      "Descripcion": "Quita 6 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Tónico",
+      "Descripcion": "Cura estados."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    }
+  ],
+  "HorasJugadas": 33,
+  "UltimaVez": "2024-04-03 21:36:29",
+  "Progreso": "46,6%"
+},
+{
+  "_id": "player08",
+  "Nombre": "Emma",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character02"
+  },
+  "PC": 32,
+  "PF": 11,
+  "PE": 4,
+  "Monedas": 97,
+  "PuntosNivel": 32,
+  "Estado": 3,
+  "Medallas": [
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Golpe Confusión",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Grandimiel",
+      "Descripcion": "Recupera 15 PF."
+    },
+    {
+      "Nombre": "Flor de fuego",
+      "Descripcion": "Quita 3 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Tónico",
+      "Descripcion": "Cura estados."
+    },
+    {
+      "Nombre": "Espíritu",
+      "Descripcion": "Te cubre de ataques enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Golpe Final",
+      "CostePE": 2,
+      "Descripcion": "Termina con los enemigos de un golpe."
+    }
+  ],
+  "HorasJugadas": 23,
+  "UltimaVez": "2024-03-29 19:41:46",
+  "Progreso": "94,9%"
+},
+{
+  "_id": "player15",
+  "Nombre": "David",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character01"
+  },
+  "PC": 11,
+  "PF": 8,
+  "PE": 4,
+  "Monedas": 32,
+  "PuntosNivel": 76,
+  "Estado": 1,
+  "Medallas": [
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Seta",
+      "Descripcion": "Recupera 5 PC."
+    },
+    {
+      "Nombre": "Grandimiel",
+      "Descripcion": "Recupera 15 PF."
+    },
+    {
+      "Nombre": "Furia trueno",
+      "Descripcion": "Quita 4 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Tónico",
+      "Descripcion": "Cura estados."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Golpe Final",
+      "CostePE": 2,
+      "Descripcion": "Termina con los enemigos de un golpe."
+    }
+  ],
+  "HorasJugadas": 23,
+  "UltimaVez": "2024-01-10 20:11:57",
+  "Progreso": "84,6%"
+},
+{
+  "_id": "player18",
+  "Nombre": "Amelia",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character05"
+  },
+  "PC": 33,
+  "PF": 8,
+  "PE": 5,
+  "Monedas": 93,
+  "PuntosNivel": 62,
+  "Estado": 4,
+  "Medallas": [
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Golpe Confusión",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Más PC",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PC Máximos de Mario en 5 puntos."
+    },
+    {
+      "Nombre": "Más PF",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PF Máximos en 5 puntos."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Bloque POW",
+      "Descripcion": "Quita 2 PC a todos los enemigos y da vuelta a enemigos con caparazón"
+    },
+    {
+      "Nombre": "Espíritu",
+      "Descripcion": "Te cubre de ataques enemigos."
+    },
+    {
+      "Nombre": "Capote",
+      "Descripcion": "Esquiva ataques de enemigos"
+    },
+    {
+      "Nombre": "Oveja Sueño",
+      "Descripcion": "Duerme a los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    }
+  ],
+  "HorasJugadas": 55,
+  "UltimaVez": "2024-03-31 18:49:15",
+  "Progreso": "42,3%"
+},
+{
+  "_id": "player22",
+  "Nombre": "Evelyn",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character07"
+  },
+  "PC": 21,
+  "PF": 2,
+  "PE": 1,
+  "Monedas": 34,
+  "PuntosNivel": 88,
+  "Estado": 1,
+  "Medallas": [
+    {
+      "Nombre": "Doble Objeto",
+      "CostePM": 3,
+      "Descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+    },
+    {
+      "Nombre": "Más PF",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PF Máximos en 5 puntos."
+    },
+    {
+      "Nombre": "Ahorraflores",
+      "CostePM": 4,
+      "Descripcion": "En el combate, ahorra 1 PF cada vez que Mario ataca."
+    },
+    {
+      "Nombre": "Día Suerte",
+      "CostePM": 7,
+      "Descripcion": "Hace que el enemigo falle mucho al atacar a Mario."
+    },
+    {
+      "Nombre": "Emblema L",
+      "CostePM": 0,
+      "Descripcion": "El traje de Mario se volverá como el de Luigi."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Grandimiel",
+      "Descripcion": "Recupera 15 PF."
+    },
+    {
+      "Nombre": "Furia trueno",
+      "Descripcion": "Quita 4 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Tónico",
+      "Descripcion": "Cura estados."
+    },
+    {
+      "Nombre": "Capote",
+      "Descripcion": "Esquiva ataques de enemigos"
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Golpe Final",
+      "CostePE": 2,
+      "Descripcion": "Termina con los enemigos de un golpe."
+    }
+  ],
+  "HorasJugadas": 46,
+  "UltimaVez": "2023-09-08 16:51:32",
+  "Progreso": "97,6%"
+},
+{
+  "_id": "player24",
+  "Nombre": "Abigail",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character04"
+  },
+  "PC": 36,
+  "PF": 25,
+  "PE": 2,
+  "Monedas": 70,
+  "PuntosNivel": 22,
+  "Estado": 1,
+  "Medallas": [
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    },
+    {
+      "Nombre": "Más PC",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PC Máximos de Mario en 5 puntos."
+    },
+    {
+      "Nombre": "Vacuna",
+      "CostePM": 4,
+      "Descripcion": "Protege a Mario de mareos y envenenamientos durante el combate."
+    },
+    {
+      "Nombre": "Corazón Feliz",
+      "CostePM": 2,
+      "Descripcion": "Va recuperando los PC de Mario durante el combate."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Flor de fuego",
+      "Descripcion": "Quita 3 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Bloque POW",
+      "Descripcion": "Quita 2 PC a todos los enemigos y da vuelta a enemigos con caparazón"
+    },
+    {
+      "Nombre": "Tónico",
+      "Descripcion": "Cura estados."
+    },
+    {
+      "Nombre": "Oveja Sueño",
+      "Descripcion": "Duerme a los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    }
+  ],
+  "HorasJugadas": 25,
+  "UltimaVez": "2024-04-03 21:01:25",
+  "Progreso": "47,0%"
+},
+{
+  "_id": "player05",
+  "Nombre": "William",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character03"
+  },
+  "PC": 33,
+  "PF": 30,
+  "PE": 5,
+  "Monedas": 82,
+  "PuntosNivel": 37,
+  "Estado": 1,
+  "Medallas": [
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    },
+    {
+      "Nombre": "Corazón Feliz",
+      "CostePM": 2,
+      "Descripcion": "Va recuperando los PC de Mario durante el combate."
+    },
+    {
+      "Nombre": "FX Ataque A",
+      "CostePM": 0,
+      "Descripcion": "Cuando Mario ataca, se oye el sonido de una rana."
+    },
+    {
+      "Nombre": "Emblema L",
+      "CostePM": 0,
+      "Descripcion": "El traje de Mario se volverá como el de Luigi."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Don Blandito",
+      "Descripcion": "Reduce el ataque de los enemigos."
+    },
+    {
+      "Nombre": "Concha Protectora",
+      "Descripcion": "Te protege de ataques enemigos."
+    },
+    {
+      "Nombre": "Capote",
+      "Descripcion": "Esquiva ataques de enemigos"
+    },
+    {
+      "Nombre": "Chupa PC",
+      "Descripcion": "Quita PC a un enemigo y se lo da a tu personaje."
+    },
+    {
+      "Nombre": "Oveja Sueño",
+      "Descripcion": "Duerme a los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    }
+  ],
+  "HorasJugadas": 49,
+  "UltimaVez": "2023-11-10 15:20:39",
+  "Progreso": "76,3%"
+},
+{
+  "_id": "player07",
+  "Nombre": "Benjamin",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character05"
+  },
+  "PC": 10,
+  "PF": 22,
+  "PE": 5,
+  "Monedas": 95,
+  "PuntosNivel": 79,
+  "Estado": 0,
+  "Medallas": [
+    {
+      "Nombre": "Doble Objeto",
+      "CostePM": 3,
+      "Descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Más PF",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PF Máximos en 5 puntos."
+    },
+    {
+      "Nombre": "Ahorraflores",
+      "CostePM": 4,
+      "Descripcion": "En el combate, ahorra 1 PF cada vez que Mario ataca."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Seta",
+      "Descripcion": "Recupera 5 PC."
+    },
+    {
+      "Nombre": "Ultra Seta",
+      "Descripcion": "Recupera 15 PC."
+    },
+    {
+      "Nombre": "Flor de fuego",
+      "Descripcion": "Quita 3 PC a todos los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    }
+  ],
+  "HorasJugadas": 49,
+  "UltimaVez": "2024-03-14 21:36:05",
+  "Progreso": "52,4%"
+},
+{
+  "_id": "player12",
+  "Nombre": "Isabella",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character07"
+  },
+  "PC": 36,
+  "PF": 8,
+  "PE": 3,
+  "Monedas": 117,
+  "PuntosNivel": 74,
+  "Estado": 2,
+  "Medallas": [
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    },
+    {
+      "Nombre": "Más PC",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PC Máximos de Mario en 5 puntos."
+    },
+    {
+      "Nombre": "Anti-Pinchos",
+      "CostePM": 3,
+      "Descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Seta",
+      "Descripcion": "Recupera 5 PC."
+    },
+    {
+      "Nombre": "Gelatina",
+      "Descripcion": "Recupera 5 PF."
+    },
+    {
+      "Nombre": "Furia trueno",
+      "Descripcion": "Quita 4 PC a todos los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    }
+  ],
+  "HorasJugadas": 19,
+  "UltimaVez": "2024-03-27 16:17:35",
+  "Progreso": "42,4%"
+},
+{
+  "_id": "player14",
+  "Nombre": "Mia",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character04"
+  },
+  "PC": 11,
+  "PF": 17,
+  "PE": 0,
+  "Monedas": 79,
+  "PuntosNivel": 98,
+  "Estado": 4,
+  "Medallas": [
+    {
+      "Nombre": "Doble Objeto",
+      "CostePM": 3,
+      "Descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Más PC",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PC Máximos de Mario en 5 puntos."
+    },
+    {
+      "Nombre": "Más PF",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PF Máximos en 5 puntos."
+    },
+    {
+      "Nombre": "Vacuna",
+      "CostePM": 4,
+      "Descripcion": "Protege a Mario de mareos y envenenamientos durante el combate."
+    },
+    {
+      "Nombre": "Corazón Feliz",
+      "CostePM": 2,
+      "Descripcion": "Va recuperando los PC de Mario durante el combate."
+    },
+    {
+      "Nombre": "Día Suerte",
+      "CostePM": 7,
+      "Descripcion": "Hace que el enemigo falle mucho al atacar a Mario."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Espíritu",
+      "Descripcion": "Te cubre de ataques enemigos."
+    },
+    {
+      "Nombre": "Disco Mareo",
+      "Descripcion": "Marea a los enemigos."
+    },
+    {
+      "Nombre": "Concha Protectora",
+      "Descripcion": "Te protege de ataques enemigos."
+    },
+    {
+      "Nombre": "Capote",
+      "Descripcion": "Esquiva ataques de enemigos"
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    }
+  ],
+  "HorasJugadas": 26,
+  "UltimaVez": "2024-02-20 16:50:37",
+  "Progreso": "69,4%"
+},
+{
+  "_id": "player19",
+  "Nombre": "Joseph",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character06"
+  },
+  "PC": 39,
+  "PF": 16,
+  "PE": 0,
+  "Monedas": 54,
+  "PuntosNivel": 15,
+  "Estado": 2,
+  "Medallas": [
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    },
+    {
+      "Nombre": "Anti-Pinchos",
+      "CostePM": 3,
+      "Descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+    },
+    {
+      "Nombre": "Vacuna",
+      "CostePM": 4,
+      "Descripcion": "Protege a Mario de mareos y envenenamientos durante el combate."
+    },
+    {
+      "Nombre": "Día Suerte",
+      "CostePM": 7,
+      "Descripcion": "Hace que el enemigo falle mucho al atacar a Mario."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Furia trueno",
+      "Descripcion": "Quita 4 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Espíritu",
+      "Descripcion": "Te cubre de ataques enemigos."
+    },
+    {
+      "Nombre": "Don Blandito",
+      "Descripcion": "Reduce el ataque de los enemigos."
+    },
+    {
+      "Nombre": "Capote",
+      "Descripcion": "Esquiva ataques de enemigos"
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Golpe Final",
+      "CostePE": 2,
+      "Descripcion": "Termina con los enemigos de un golpe."
+    }
+  ],
+  "HorasJugadas": 21,
+  "UltimaVez": "2024-01-06 12:48:01",
+  "Progreso": "92,0%"
+},
+{
+  "_id": "player20",
+  "Nombre": "Harper",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character07"
+  },
+  "PC": 7,
+  "PF": 12,
+  "PE": 5,
+  "Monedas": 48,
+  "PuntosNivel": 17,
+  "Estado": 0,
+  "Medallas": [
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Seta",
+      "Descripcion": "Recupera 5 PC."
+    },
+    {
+      "Nombre": "Grandimiel",
+      "Descripcion": "Recupera 15 PF."
+    },
+    {
+      "Nombre": "Flor de fuego",
+      "Descripcion": "Quita 3 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Estrella Fugaz",
+      "Descripcion": "Quita 6 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Don Blandito",
+      "Descripcion": "Reduce el ataque de los enemigos."
+    },
+    {
+      "Nombre": "Chupa PC",
+      "Descripcion": "Quita PC a un enemigo y se lo da a tu personaje."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    }
+  ],
+  "HorasJugadas": 37,
+  "UltimaVez": "2024-01-06 18:33:05",
+  "Progreso": "70,7%"
+},
+{
+  "_id": "player23",
+  "Nombre": "Samuel",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character01"
+  },
+  "PC": 11,
+  "PF": 2,
+  "PE": 2,
+  "Monedas": 94,
+  "PuntosNivel": 13,
+  "Estado": 3,
+  "Medallas": [
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Golpe Confusión",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso."
+    },
+    {
+      "Nombre": "Doble Objeto",
+      "CostePM": 3,
+      "Descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Ultra Seta",
+      "Descripcion": "Recupera 15 PC."
+    },
+    {
+      "Nombre": "Estrella Fugaz",
+      "Descripcion": "Quita 6 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Disco Mareo",
+      "Descripcion": "Marea a los enemigos."
+    },
+    {
+      "Nombre": "Chupa PC",
+      "Descripcion": "Quita PC a un enemigo y se lo da a tu personaje."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    }
+  ],
+  "HorasJugadas": 50,
+  "UltimaVez": "2024-02-20 23:25:23",
+  "Progreso": "41,8%"
+},
+{
+  "_id": "player01",
+  "Nombre": "James",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character06"
+  },
+  "PC": 10,
+  "PF": 15,
+  "PE": 6,
+  "Monedas": 117,
+  "PuntosNivel": 21,
+  "Estado": 0,
+  "Medallas": [
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Seta",
+      "Descripcion": "Recupera 5 PC."
+    },
+    {
+      "Nombre": "Gelatina",
+      "Descripcion": "Recupera 5 PF."
+    },
+    {
+      "Nombre": "Ultra Seta",
+      "Descripcion": "Recupera 15 PC."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    }
+  ],
+  "HorasJugadas": 19,
+  "UltimaVez": "2024-01-21 19:30:52",
+  "Progreso": "44,8%"
+},
+{
+  "_id": "player04",
+  "Nombre": "Sophia",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character03"
+  },
+  "PC": 15,
+  "PF": 12,
+  "PE": 6,
+  "Monedas": 76,
+  "PuntosNivel": 12,
+  "Estado": 2,
+  "Medallas": [
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Golpe Confusión",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso."
+    },
+    {
+      "Nombre": "Doble Objeto",
+      "CostePM": 3,
+      "Descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+    },
+    {
+      "Nombre": "Ahorraflores",
+      "CostePM": 4,
+      "Descripcion": "En el combate, ahorra 1 PF cada vez que Mario ataca."
+    },
+    {
+      "Nombre": "Anti-Pinchos",
+      "CostePM": 3,
+      "Descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+    },
+    {
+      "Nombre": "Cambio Rápido",
+      "CostePM": 7,
+      "Descripcion": "Permite cambiar de compañero sin perder turno."
+    },
+    {
+      "Nombre": "FX Ataque A",
+      "CostePM": 0,
+      "Descripcion": "Cuando Mario ataca, se oye el sonido de una rana."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Espíritu",
+      "Descripcion": "Te cubre de ataques enemigos."
+    },
+    {
+      "Nombre": "Disco Mareo",
+      "Descripcion": "Marea a los enemigos."
+    },
+    {
+      "Nombre": "Don Blandito",
+      "Descripcion": "Reduce el ataque de los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    }
+  ],
+  "HorasJugadas": 52,
+  "UltimaVez": "2024-02-24 18:06:43",
+  "Progreso": "46,1%"
+},
+{
+  "_id": "player06",
+  "Nombre": "Olivia",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character03"
+  },
+  "PC": 11,
+  "PF": 21,
+  "PE": 3,
+  "Monedas": 32,
+  "PuntosNivel": 57,
+  "Estado": 2,
+  "Medallas": [
+    {
+      "Nombre": "Más PC",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PC Máximos de Mario en 5 puntos."
+    },
+    {
+      "Nombre": "Más PF",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PF Máximos en 5 puntos."
+    },
+    {
+      "Nombre": "Anti-Pinchos",
+      "CostePM": 3,
+      "Descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+    },
+    {
+      "Nombre": "Vacuna",
+      "CostePM": 4,
+      "Descripcion": "Protege a Mario de mareos y envenenamientos durante el combate."
+    },
+    {
+      "Nombre": "Día Suerte",
+      "CostePM": 7,
+      "Descripcion": "Hace que el enemigo falle mucho al atacar a Mario."
+    },
+    {
+      "Nombre": "Cambio Rápido",
+      "CostePM": 7,
+      "Descripcion": "Permite cambiar de compañero sin perder turno."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Disco Mareo",
+      "Descripcion": "Marea a los enemigos."
+    },
+    {
+      "Nombre": "Don Blandito",
+      "Descripcion": "Reduce el ataque de los enemigos."
+    },
+    {
+      "Nombre": "Concha Protectora",
+      "Descripcion": "Te protege de ataques enemigos."
+    },
+    {
+      "Nombre": "Capote",
+      "Descripcion": "Esquiva ataques de enemigos"
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    }
+  ],
+  "HorasJugadas": 27,
+  "UltimaVez": "2023-08-17 21:43:29",
+  "Progreso": "54,7%"
+},
+{
+  "_id": "player09",
+  "Nombre": "Alexander",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character07"
+  },
+  "PC": 33,
+  "PF": 13,
+  "PE": 1,
+  "Monedas": 93,
+  "PuntosNivel": 53,
+  "Estado": 3,
+  "Medallas": [
+    {
+      "Nombre": "Salto Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Salto Potente. Gasta 2 PF. Salta con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Golpe Confusión",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso."
+    },
+    {
+      "Nombre": "Doble Objeto",
+      "CostePM": 3,
+      "Descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Ultra Seta",
+      "Descripcion": "Recupera 15 PC."
+    },
+    {
+      "Nombre": "Grandimiel",
+      "Descripcion": "Recupera 15 PF."
+    },
+    {
+      "Nombre": "Flor de fuego",
+      "Descripcion": "Quita 3 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Furia trueno",
+      "Descripcion": "Quita 4 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Estrella Fugaz",
+      "Descripcion": "Quita 6 PC a todos los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    }
+  ],
+  "HorasJugadas": 43,
+  "UltimaVez": "2024-04-10 14:16:54",
+  "Progreso": "82,9%"
+},
+{
+  "_id": "player10",
+  "Nombre": "Ava",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character07"
+  },
+  "PC": 16,
+  "PF": 5,
+  "PE": 3,
+  "Monedas": 47,
+  "PuntosNivel": 67,
+  "Estado": 0,
+  "Medallas": [
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    },
+    {
+      "Nombre": "Vacuna",
+      "CostePM": 4,
+      "Descripcion": "Protege a Mario de mareos y envenenamientos durante el combate."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Bloque POW",
+      "Descripcion": "Quita 2 PC a todos los enemigos y da vuelta a enemigos con caparazón"
+    },
+    {
+      "Nombre": "Tónico",
+      "Descripcion": "Cura estados."
+    },
+    {
+      "Nombre": "Disco Mareo",
+      "Descripcion": "Marea a los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Golpe Final",
+      "CostePE": 2,
+      "Descripcion": "Termina con los enemigos de un golpe."
+    }
+  ],
+  "HorasJugadas": 32,
+  "UltimaVez": "2024-03-17 21:09:43",
+  "Progreso": "85,4%"
+},
+{
+  "_id": "player11",
+  "Nombre": "Daniel",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character06"
+  },
+  "PC": 19,
+  "PF": 8,
+  "PE": 2,
+  "Monedas": 118,
+  "PuntosNivel": 52,
+  "Estado": 2,
+  "Medallas": [
+    {
+      "Nombre": "Salto Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Salto Potente. Gasta 2 PF. Salta con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Última Posibilidad",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, solo recibe la mitad del daño."
+    },
+    {
+      "Nombre": "Anti-Pinchos",
+      "CostePM": 3,
+      "Descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+    },
+    {
+      "Nombre": "Día Suerte",
+      "CostePM": 7,
+      "Descripcion": "Hace que el enemigo falle mucho al atacar a Mario."
+    },
+    {
+      "Nombre": "Cambio Rápido",
+      "CostePM": 7,
+      "Descripcion": "Permite cambiar de compañero sin perder turno."
+    },
+    {
+      "Nombre": "FX Ataque A",
+      "CostePM": 0,
+      "Descripcion": "Cuando Mario ataca, se oye el sonido de una rana."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Tónico",
+      "Descripcion": "Cura estados."
+    },
+    {
+      "Nombre": "Espíritu",
+      "Descripcion": "Te cubre de ataques enemigos."
+    },
+    {
+      "Nombre": "Concha Protectora",
+      "Descripcion": "Te protege de ataques enemigos."
+    },
+    {
+      "Nombre": "Capote",
+      "Descripcion": "Esquiva ataques de enemigos"
+    },
+    {
+      "Nombre": "Oveja Sueño",
+      "Descripcion": "Duerme a los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    }
+  ],
+  "HorasJugadas": 26,
+  "UltimaVez": "2024-04-01 12:10:28",
+  "Progreso": "57,3%"
+},
+{
+  "_id": "player13",
+  "Nombre": "Matthew",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character04"
+  },
+  "PC": 23,
+  "PF": 1,
+  "PE": 5,
+  "Monedas": 45,
+  "PuntosNivel": 69,
+  "Estado": 2,
+  "Medallas": [
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Golpe Confusión",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso."
+    },
+    {
+      "Nombre": "Anti-Pinchos",
+      "CostePM": 3,
+      "Descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+    },
+    {
+      "Nombre": "Vacuna",
+      "CostePM": 4,
+      "Descripcion": "Protege a Mario de mareos y envenenamientos durante el combate."
+    },
+    {
+      "Nombre": "Cambio Rápido",
+      "CostePM": 7,
+      "Descripcion": "Permite cambiar de compañero sin perder turno."
+    },
+    {
+      "Nombre": "Emblema L",
+      "CostePM": 0,
+      "Descripcion": "El traje de Mario se volverá como el de Luigi."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Gelatina",
+      "Descripcion": "Recupera 5 PF."
+    },
+    {
+      "Nombre": "Ultra Seta",
+      "Descripcion": "Recupera 15 PC."
+    },
+    {
+      "Nombre": "Furia trueno",
+      "Descripcion": "Quita 4 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Capote",
+      "Descripcion": "Esquiva ataques de enemigos"
+    },
+    {
+      "Nombre": "Chupa PC",
+      "Descripcion": "Quita PC a un enemigo y se lo da a tu personaje."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    }
+  ],
+  "HorasJugadas": 25,
+  "UltimaVez": "2024-02-29 13:11:10",
+  "Progreso": "62,6%"
+},
+{
+  "_id": "player16",
+  "Nombre": "Charlotte",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character04"
+  },
+  "PC": 7,
+  "PF": 30,
+  "PE": 0,
+  "Monedas": 79,
+  "PuntosNivel": 39,
+  "Estado": 2,
+  "Medallas": [
+    {
+      "Nombre": "Martillo Terremoto",
+      "CostePM": 2,
+      "Descripcion": "Permite realizar un Martillo Terremoto. Gasta 3 PF. Daña a todos los enemigos del suelo y techo."
+    },
+    {
+      "Nombre": "Golpe Confusión",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Confusión. Gasta 2 PF. El enemigo golpeado quedará confuso."
+    },
+    {
+      "Nombre": "Doble Objeto",
+      "CostePM": 3,
+      "Descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+    },
+    {
+      "Nombre": "Más PF",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PF Máximos en 5 puntos."
+    },
+    {
+      "Nombre": "Ahorraflores",
+      "CostePM": 4,
+      "Descripcion": "En el combate, ahorra 1 PF cada vez que Mario ataca."
+    },
+    {
+      "Nombre": "Anti-Pinchos",
+      "CostePM": 3,
+      "Descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Seta",
+      "Descripcion": "Recupera 5 PC."
+    },
+    {
+      "Nombre": "Gelatina",
+      "Descripcion": "Recupera 5 PF."
+    },
+    {
+      "Nombre": "Flor de fuego",
+      "Descripcion": "Quita 3 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Bloque POW",
+      "Descripcion": "Quita 2 PC a todos los enemigos y da vuelta a enemigos con caparazón"
+    },
+    {
+      "Nombre": "Espíritu",
+      "Descripcion": "Te cubre de ataques enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    }
+  ],
+  "HorasJugadas": 19,
+  "UltimaVez": "2024-05-07 22:16:58",
+  "Progreso": "56,9%"
+},
+{
+  "_id": "player17",
+  "Nombre": "Andrew",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character04"
+  },
+  "PC": 35,
+  "PF": 12,
+  "PE": 1,
+  "Monedas": 112,
+  "PuntosNivel": 56,
+  "Estado": 0,
+  "Medallas": [
+    {
+      "Nombre": "Salto Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Salto Potente. Gasta 2 PF. Salta con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Más PC",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PC Máximos de Mario en 5 puntos."
+    },
+    {
+      "Nombre": "Más PF",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PF Máximos en 5 puntos."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Bloque POW",
+      "Descripcion": "Quita 2 PC a todos los enemigos y da vuelta a enemigos con caparazón"
+    },
+    {
+      "Nombre": "Furia trueno",
+      "Descripcion": "Quita 4 PC a todos los enemigos."
+    },
+    {
+      "Nombre": "Don Blandito",
+      "Descripcion": "Reduce el ataque de los enemigos."
+    },
+    {
+      "Nombre": "Concha Protectora",
+      "Descripcion": "Te protege de ataques enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Golpe Final",
+      "CostePE": 2,
+      "Descripcion": "Termina con los enemigos de un golpe."
+    }
+  ],
+  "HorasJugadas": 24,
+  "UltimaVez": "2024-03-01 17:54:56",
+  "Progreso": "97,2%"
+},
+{
+  "_id": "player21",
+  "Nombre": "John",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character02"
+  },
+  "PC": 39,
+  "PF": 15,
+  "PE": 5,
+  "Monedas": 37,
+  "PuntosNivel": 27,
+  "Estado": 3,
+  "Medallas": [
+    {
+      "Nombre": "Doble Objeto",
+      "CostePM": 3,
+      "Descripcion": "En el combate, permite a Mario usar dos objetos durante un turno. Gasta 4 PF."
+    },
+    {
+      "Nombre": "Más Fuerza",
+      "CostePM": 6,
+      "Descripcion": "Incrementa los poderes de Salto y Martillo en 1 Punto."
+    },
+    {
+      "Nombre": "Mega Prisa",
+      "CostePM": 1,
+      "Descripcion": "Cuando Mario está en peligro, su poder de ataque sube en 5 puntos."
+    },
+    {
+      "Nombre": "Ahorraflores",
+      "CostePM": 4,
+      "Descripcion": "En el combate, ahorra 1 PF cada vez que Mario ataca."
+    },
+    {
+      "Nombre": "Anti-Pinchos",
+      "CostePM": 3,
+      "Descripcion": "Permite saltar sobre un enemigo con pinchos sin recibir daño."
+    },
+    {
+      "Nombre": "Vacuna",
+      "CostePM": 4,
+      "Descripcion": "Protege a Mario de mareos y envenenamientos durante el combate."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Gelatina",
+      "Descripcion": "Recupera 5 PF."
+    },
+    {
+      "Nombre": "Grandimiel",
+      "Descripcion": "Recupera 15 PF."
+    },
+    {
+      "Nombre": "Furia trueno",
+      "Descripcion": "Quita 4 PC a todos los enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    },
+    {
+      "Nombre": "Como Nuevo",
+      "CostePE": 5,
+      "Descripcion": "Recupera PC y PF y, además, cura a Mario y a su compañero."
+    }
+  ],
+  "HorasJugadas": 44,
+  "UltimaVez": "2023-11-16 12:46:39",
+  "Progreso": "80,7%"
+},
+{
+  "_id": "player25",
+  "Nombre": "Christopher",
+  "Acompañante": {
+    "$ref": "Acompañantes",
+    "$id": "character07"
+  },
+  "PC": 31,
+  "PF": 4,
+  "PE": 1,
+  "Monedas": 76,
+  "PuntosNivel": 24,
+  "Estado": 1,
+  "Medallas": [
+    {
+      "Nombre": "Multi-Rebote",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Multi-Rebote. Gasta 2 PF. Puedes saltar sobre todos los enemigos."
+    },
+    {
+      "Nombre": "Golpe Potente",
+      "CostePM": 1,
+      "Descripcion": "Permite realizar un Golpe Potente. Gasta 2 PF. Martillea con mucho poder de ataque."
+    },
+    {
+      "Nombre": "Más PF",
+      "CostePM": 3,
+      "Descripcion": "Incrementa los PF Máximos en 5 puntos."
+    },
+    {
+      "Nombre": "Ahorraflores",
+      "CostePM": 4,
+      "Descripcion": "En el combate, ahorra 1 PF cada vez que Mario ataca."
+    },
+    {
+      "Nombre": "Corazón Feliz",
+      "CostePM": 2,
+      "Descripcion": "Va recuperando los PC de Mario durante el combate."
+    },
+    {
+      "Nombre": "Día Suerte",
+      "CostePM": 7,
+      "Descripcion": "Hace que el enemigo falle mucho al atacar a Mario."
+    },
+    {
+      "Nombre": "Cambio Rápido",
+      "CostePM": 7,
+      "Descripcion": "Permite cambiar de compañero sin perder turno."
+    },
+    {
+      "Nombre": "FX Ataque A",
+      "CostePM": 0,
+      "Descripcion": "Cuando Mario ataca, se oye el sonido de una rana."
+    }
+  ],
+  "Items": [
+    {
+      "Nombre": "Gelatina",
+      "Descripcion": "Recupera 5 PF."
+    },
+    {
+      "Nombre": "Ultra Seta",
+      "Descripcion": "Recupera 15 PC."
+    },
+    {
+      "Nombre": "Bloque POW",
+      "Descripcion": "Quita 2 PC a todos los enemigos y da vuelta a enemigos con caparazón"
+    },
+    {
+      "Nombre": "Espíritu",
+      "Descripcion": "Te cubre de ataques enemigos."
+    },
+    {
+      "Nombre": "Don Blandito",
+      "Descripcion": "Reduce el ataque de los enemigos."
+    },
+    {
+      "Nombre": "Concha Protectora",
+      "Descripcion": "Te protege de ataques enemigos."
+    }
+  ],
+  "HabEstrella": [
+    {
+      "Nombre": "Recuperar",
+      "CostePE": 1,
+      "Descripcion": "Recupera PC y PF, curando a Mario y a su compañero."
+    },
+    {
+      "Nombre": "Terremoto",
+      "CostePE": 2,
+      "Descripcion": "Ataca a todos los enemigos haciendo temblar el suelo."
+    },
+    {
+      "Nombre": "Tiempo Muerto",
+      "CostePE": 2,
+      "Descripcion": "Detiene durante un rato a todos los enemigos."
+    },
+    {
+      "Nombre": "Recargar",
+      "CostePE": 3,
+      "Descripcion": "Aumenta durante un rato el poder de ataque y defensa."
+    },
+    {
+      "Nombre": "Ataque Estelar",
+      "CostePE": 4,
+      "Descripcion": "Ataca a todos los enemigos rodeados por las estrellas."
+    }
+  ],
+  "HorasJugadas": 15,
+  "UltimaVez": "2024-01-31 12:40:27",
+  "Progreso": "51,2%"
+}]
