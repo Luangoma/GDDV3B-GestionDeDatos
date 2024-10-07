@@ -1,0 +1,132 @@
+[{
+  "_id": "place06",
+  "Nombre": "Castillo de Goombaba",
+  "NPCs": 14,
+  "Enemigos": 11
+},
+{
+  "_id": "place01",
+  "Nombre": "Villa Viciosa",
+  "NPCs": 10,
+  "Enemigos": 17
+},
+{
+  "_id": "place08",
+  "Nombre": "Gran Árbol",
+  "NPCs": 14,
+  "Enemigos": 14
+},
+{
+  "_id": "place10",
+  "Nombre": "Ciudad Dojo",
+  "NPCs": 6,
+  "Enemigos": 18
+},
+{
+  "_id": "place11",
+  "Nombre": "Villa Sombría",
+  "NPCs": 12,
+  "Enemigos": 3
+},
+{
+  "_id": "place13",
+  "Nombre": "Templo Lúgubre",
+  "NPCs": 20,
+  "Enemigos": 19
+},
+{
+  "_id": "place04",
+  "Nombre": "Villa Verde",
+  "NPCs": 18,
+  "Enemigos": 0
+},
+{
+  "_id": "place05",
+  "Nombre": "Fortaleza de Piedra",
+  "NPCs": 19,
+  "Enemigos": 12
+},
+{
+  "_id": "place09",
+  "Nombre": "Casa de Claudia",
+  "NPCs": 9,
+  "Enemigos": 0
+},
+{
+  "_id": "place12",
+  "Nombre": "Camino Sombrío",
+  "NPCs": 11,
+  "Enemigos": 19
+},
+{
+  "_id": "place16",
+  "Nombre": "Estación de Riverside",
+  "NPCs": 20,
+  "Enemigos": 13
+},
+{
+  "_id": "place20",
+  "Nombre": "Palacio de la Oscuridad",
+  "NPCs": 9,
+  "Enemigos": 8
+},
+{
+  "_id": "place21",
+  "Nombre": "Cien Mazmorras",
+  "NPCs": 8,
+  "Enemigos": 17
+},
+{
+  "_id": "place02",
+  "Nombre": "Subsuelo de Villa Viciosa",
+  "NPCs": 9,
+  "Enemigos": 6
+},
+{
+  "_id": "place03",
+  "Nombre": "Llanura Estelar",
+  "NPCs": 18,
+  "Enemigos": 19
+},
+{
+  "_id": "place14",
+  "Nombre": "Isla Trópico",
+  "NPCs": 12,
+  "Enemigos": 19
+},
+{
+  "_id": "place18",
+  "Nombre": "Bomburgo",
+  "NPCs": 15,
+  "Enemigos": 11
+},
+{
+  "_id": "place07",
+  "Nombre": "Bosque Maravilloso",
+  "NPCs": 7,
+  "Enemigos": 19
+},
+{
+  "_id": "place15",
+  "Nombre": "Cueva de los Piratas",
+  "NPCs": 8,
+  "Enemigos": 5
+},
+{
+  "_id": "place17",
+  "Nombre": "Villa Preciosa",
+  "NPCs": 16,
+  "Enemigos": 0
+},
+{
+  "_id": "place19",
+  "Nombre": "La Luna",
+  "NPCs": 16,
+  "Enemigos": 19
+},
+{
+  "_id": "place22",
+  "Nombre": "Diversos Lugares",
+  "NPCs": 18,
+  "Enemigos": 18
+}]

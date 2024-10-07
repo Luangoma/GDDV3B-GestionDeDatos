@@ -1,0 +1,273 @@
+[{
+  "_id": "character01",
+  "Nombre": "Goomarina",
+  "PC": 25,
+  "PF": 15,
+  "Procedencia": {
+    "$ref": "Lugares",
+    "$id": "place01"
+  },
+  "Descripcion": "Una Goomba universitaria que aspira a ser arqueóloga.",
+  "Habilidades": [
+    {
+      "Nombre": "Cabezazo",
+      "Coste_PF": 0,
+      "Indice_ataque": 2,
+      "Indice_defensa": 0,
+      "Descripcion": "Ataca a un enemigo de un cabezazo."
+    },
+    {
+      "Nombre": "Descripción",
+      "Coste_PF": 0,
+      "Indice_ataque": 0,
+      "Indice_defensa": 0,
+      "Descripcion": "Muestra la descripción del enemigo y sus PC."
+    },
+    {
+      "Nombre": "Multicabezazo",
+      "Coste_PF": 3,
+      "Indice_ataque": 3,
+      "Indice_defensa": 0,
+      "Descripcion": "Ataca a un enemigo hasta fallar."
+    },
+    {
+      "Nombre": "Beso de Ánimo",
+      "Coste_PF": 4,
+      "Indice_ataque": 0,
+      "Indice_defensa": 0,
+      "Descripcion": "Hace que Mario realice dos acciones en un turno."
+    }
+  ]
+},
+{
+  "_id": "character05",
+  "Nombre": "Bibiana",
+  "PC": 25,
+  "PF": 25,
+  "Procedencia": {
+    "$ref": "Lugares",
+    "$id": "place11"
+  },
+  "Descripcion": "Este antiguo miembro del Trío de las Sombras parece una chica, pero en realidad es un chico.",
+  "Habilidades": [
+    {
+      "Nombre": "Golpe Sombra",
+      "Coste_PF": 0,
+      "Indice_ataque": 4,
+      "Indice_defensa": 0,
+      "Descripcion": "Ataca a un enemigo con un puñetazo y le prende fuego."
+    },
+    {
+      "Nombre": "Transparencia",
+      "Coste_PF": 1,
+      "Indice_ataque": 0,
+      "Indice_defensa": 3,
+      "Descripcion": "Esconde a Mario para evitar los ataques de los enemigos."
+    },
+    {
+      "Nombre": "Llamarada",
+      "Coste_PF": 6,
+      "Indice_ataque": 1,
+      "Indice_defensa": 0,
+      "Descripcion": "Ataca a todos los enemigos con una llamarada."
+    },
+    {
+      "Nombre": "Embelesamiento",
+      "Coste_PF": 4,
+      "Indice_ataque": 0,
+      "Indice_defensa": 0,
+      "Descripcion": "Confunde a los enemigos con un beso sensual."
+    }
+  ]
+},
+{
+  "_id": "character07",
+  "Nombre": "Lupina",
+  "PC": 25,
+  "PF": 15,
+  "Procedencia": {
+    "$ref": "Lugares",
+    "$id": "place01"
+  },
+  "Descripcion": "Esta ladrona en realidad es la dueña de la tienda de medallas de Villa Viciosa.",
+  "Habilidades": [
+    {
+      "Nombre": "Bofetada del Amor",
+      "Coste_PF": 0,
+      "Indice_ataque": 3,
+      "Indice_defensa": 0,
+      "Descripcion": "Ataca a un enemigo de una bofetada."
+    },
+    {
+      "Nombre": "Beso Furtivo",
+      "Coste_PF": 2,
+      "Indice_ataque": 0,
+      "Indice_defensa": 0,
+      "Descripcion": "Roba los objetos y medallas que tengan los enemigos."
+    }
+  ]
+},
+{
+  "_id": "character06",
+  "Nombre": "Bombard",
+  "PC": 30,
+  "PF": 20,
+  "Procedencia": {
+    "$ref": "Lugares",
+    "$id": "place14"
+  },
+  "Descripcion": "Un viejo lobo de mar Bob-omb; era el marido de Bombaret.",
+  "Habilidades": [
+    {
+      "Nombre": "Bomba",
+      "Coste_PF": 0,
+      "Indice_ataque": 1,
+      "Indice_defensa": 0,
+      "Descripcion": "Explota atacando a un enemigo que esté en el suelo."
+    },
+    {
+      "Nombre": "Bomba Tiempo",
+      "Coste_PF": 3,
+      "Indice_ataque": 2,
+      "Indice_defensa": 0,
+      "Descripcion": "Arroja tres bombas que explotan un turno después."
+    },
+    {
+      "Nombre": "Mina",
+      "Coste_PF": 4,
+      "Indice_ataque": 1,
+      "Indice_defensa": 4,
+      "Descripcion": "Causa daño al enemigo que ataque a Bombard."
+    },
+    {
+      "Nombre": "Gran Explosión",
+      "Coste_PF": 9,
+      "Indice_ataque": 1,
+      "Indice_defensa": 0,
+      "Descripcion": "Explota atacando a todos los enemigos."
+    }
+  ]
+},
+{
+  "_id": "character02",
+  "Nombre": "Koops",
+  "PC": 15,
+  "PF": 20,
+  "Procedencia": {
+    "$ref": "Lugares",
+    "$id": "place04"
+  },
+  "Descripcion": "Un joven Koopa que desea volverse más fuerte.",
+  "Habilidades": [
+    {
+      "Nombre": "Lanzaconcha",
+      "Coste_PF": 0,
+      "Indice_ataque": 4,
+      "Indice_defensa": 0,
+      "Descripcion": "Lanza la concha a un enemigo."
+    },
+    {
+      "Nombre": "Súper Concha",
+      "Coste_PF": 3,
+      "Indice_ataque": 3,
+      "Indice_defensa": 0,
+      "Descripcion": "Lanza la concha contra todos los enemigos."
+    },
+    {
+      "Nombre": "Protegeconcha",
+      "Coste_PF": 4,
+      "Indice_ataque": 0,
+      "Indice_defensa": 3,
+      "Descripcion": "Deja caer una concha que protege a Mario."
+    },
+    {
+      "Nombre": "Concha Furia",
+      "Coste_PF": 6,
+      "Indice_ataque": 3,
+      "Indice_defensa": 0,
+      "Descripcion": "Ataca a todos los enemigos del suelo."
+    }
+  ]
+},
+{
+  "_id": "character03",
+  "Nombre": "Claudia",
+  "PC": 35,
+  "PF": 30,
+  "Procedencia": {
+    "$ref": "Lugares",
+    "$id": "place09"
+  },
+  "Descripcion": "¡Un espíritu nebuloso con un cuerpo que es pura dinamita!",
+  "Habilidades": [
+    {
+      "Nombre": "Placaje",
+      "Coste_PF": 0,
+      "Indice_ataque": 4,
+      "Indice_defensa": 0,
+      "Descripcion": "Ataca a un enemigo aplastándolo con el cuerpo."
+    },
+    {
+      "Nombre": "Vendaval",
+      "Coste_PF": 4,
+      "Indice_ataque": 3,
+      "Indice_defensa": 0,
+      "Descripcion": "Levanta un vendaval y lanza a los enemigos por los aires."
+    },
+    {
+      "Nombre": "Achuchón",
+      "Coste_PF": 3,
+      "Indice_ataque": 2,
+      "Indice_defensa": 0,
+      "Descripcion": "Achucha al enemigo para drenar sus PC."
+    },
+    {
+      "Nombre": "Cortina Humo",
+      "Coste_PF": 4,
+      "Indice_ataque": 0,
+      "Indice_defensa": 2,
+      "Descripcion": "Hace que Mario esquive los ataques durante un rato."
+    }
+  ]
+},
+{
+  "_id": "character04",
+  "Nombre": "Yoshi",
+  "PC": 20,
+  "PF": 20,
+  "Procedencia": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "Descripcion": "Un Yoshi recién nacido. Pequeño pero matón.",
+  "Habilidades": [
+    {
+      "Nombre": "Golpe Cadera",
+      "Coste_PF": 0,
+      "Indice_ataque": 2,
+      "Indice_defensa": 0,
+      "Descripcion": "Golpea al enemigo repetidamente."
+    },
+    {
+      "Nombre": "Engullir",
+      "Coste_PF": 4,
+      "Indice_ataque": 1,
+      "Indice_defensa": 0,
+      "Descripcion": "Engulle a un enemigo para usarlo como arma arrojadiza."
+    },
+    {
+      "Nombre": "Huevos Reductores",
+      "Coste_PF": 3,
+      "Indice_ataque": 0,
+      "Indice_defensa": 0,
+      "Descripcion": "Arroja huevos a los enemigos y los reduce de tamaño."
+    },
+    {
+      "Nombre": "Estampida",
+      "Coste_PF": 6,
+      "Indice_ataque": 4,
+      "Indice_defensa": 0,
+      "Descripcion": "Ataca a los enemigos con una estampida de Yoshis."
+    }
+  ]
+}]

@@ -1,0 +1,93 @@
+////// CONSULTAS CRUD //////
+
+//---Simples---
+// 1. Todos los jugadores con más de 50 monedas y 30 puntos flor.
+db.Partidas.find({Monedas:{$gt:50}, CurrentPF:{$gt:30}})
+
+// 2. Todas las habilidades estrella que consuman más de 4 puntos estrella.
+db.Partidas.aggregate([
+  {
+    $unwind: "$HabEstrella" // Descomponer el array "HabEstrella" en documentos individuales
+  },
+  {
+    $match: {
+      "HabEstrella.CostePE": { $gt: 4 } // Filtrar habilidades estrella con un coste mayor a 1
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      Nombre: "$HabEstrella.Nombre",
+      CostePE: "$HabEstrella.CostePE",
+      Descripcion: "$HabEstrella.Descripcion"
+    }
+  }
+])
+
+// 3. Todos los lugares donde haya más de 10 enemigos y 5 NPCs.
+db.Partidas.aggregate([
+    {$unwind: "$UltimoLugar"},
+    {$match: {$and: [{"UltimoLugar.Enemigos":{$gt:10}}, {"UltimoLugar.NPCs":{$gt:5}}]}},
+    {$project: {"_id": 0, Lugar: "$UltimoLugar.Nombre"}}
+])
+
+//--Compuestas--
+
+// 1. Todos los enemigos que vuelan que vivan en X región.
+db.Partidas.find({"LogEnemigos.Enemigos.Region.Nombre": "Llanura Estelar", "LogEnemigos.Enemigos.Vuela": "TRUE"}, {_id:0, "LogEnemigos.Enemigos.Nombre": 1})
+
+// 2. La descripción de un ítem cuyo nombre sea X del jugador con id X.
+db.Partidas.aggregate([
+  {
+    $match: { "_id": "game0001" } // Seleccionar id jugador
+  },
+  {
+    $unwind: "$Items" // Descomponer array
+  },
+  {
+    $match: { "Items.Nombre": "Grandimiel" } // Filtrar por nombre
+  },
+  {
+    $project: {
+      _id: 0,
+      Descripcion: "$Items.Descripcion"
+    }
+  }
+])
+
+// 3. Mostrar el nombre de los enemigos a los que se ha enfrentado un jugador determinado.
+db.Partidas.aggregate({$match:{"_id":'game0002'}},
+{$unwind:'$LogEnemigos'},
+{$unwind: "$LogEnemigos.Enemigos"},
+{$project:{_id:0, Nombre:'$LogEnemigos.Enemigos.Nombre'}});
+
+//--Agrupadas--
+
+// 1. Agrupar las habilidades estrella según su coste y mostrar cuántas habilidades hay de cada coste.
+db.Partidas.aggregate([
+    {$unwind: "$HabEstrella"},
+    {$group:
+    {
+            _id: "$HabEstrella.CostePE",
+            count: { $sum: 1 }
+        }
+    }
+])
+
+// 2. Calcular la media de PC de los personajes según su procedencia.
+db.Partidas.aggregate([{$group:{_id:"$Acompañante.Procedencia.Nombre",MediaPuntosCorazon:{$avg:"$Acompañante.CurrentPC"}}}]);
+
+// 3. Calcular el número total de ítems de los jugadores.
+db.Partidas.aggregate([
+  {
+    $project: {
+      itemCount: { $size: "$Items" }
+    }
+  },
+  {
+    $group: {
+      _id: null,
+      totalItems: { $sum: "$itemCount" }
+    }
+  }
+])

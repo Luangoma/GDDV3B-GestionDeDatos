@@ -1,0 +1,1050 @@
+[{
+  "_id": "enemy003",
+  "Nombre": "Goompincho",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place22"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 2,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy001",
+  "Nombre": "Goomba",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place22"
+  },
+  "PuntosAtaque": 1,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 2,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy005",
+  "Nombre": "Híper Paragoomba",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place12"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 8,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy007",
+  "Nombre": "Gloomba",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy011",
+  "Nombre": "Paratroopa",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place06"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 4,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy014",
+  "Nombre": "Antitroopa",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 8,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy015",
+  "Nombre": "Antipara",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 8,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy019",
+  "Nombre": "Koopatrullero Oscuro",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 5,
+  "PuntosDefensa": 2,
+  "PuntosCorazon": 25,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy025",
+  "Nombre": "Hermano Boomerang",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy026",
+  "Nombre": "Hermano Fuego",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy029",
+  "Nombre": "Pinchón",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 3,
+  "PuntosCorazon": 3,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy035",
+  "Nombre": "Punzón Rojo",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 4,
+  "PuntosCorazon": 5,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy039",
+  "Nombre": "Magikoopa Verde",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy044",
+  "Nombre": "Bandido",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 5,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy050",
+  "Nombre": "Fuzzy",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place05"
+  },
+  "PuntosAtaque": 1,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 3,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy053",
+  "Nombre": "Fuzzy Flor",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place14"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 6,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy054",
+  "Nombre": "Pokey",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 4,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy057",
+  "Nombre": "Piraña Pocha",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place14"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 8,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy004",
+  "Nombre": "Híper Goomba",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place12"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 8,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy006",
+  "Nombre": "Híper Goompincho",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place12"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 8,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy008",
+  "Nombre": "Paragloomba",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 7,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy016",
+  "Nombre": "Koopa Oscuro",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 2,
+  "PuntosCorazon": 8,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy021",
+  "Nombre": "Koopa Esqueleto Rojo",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place06"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 5,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy022",
+  "Nombre": "Huesitos",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place20"
+  },
+  "PuntosAtaque": 5,
+  "PuntosDefensa": 2,
+  "PuntosCorazon": 8,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy024",
+  "Nombre": "Hermano Martillo",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy027",
+  "Nombre": "Lakitu",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 5,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy028",
+  "Nombre": "Lakitu Oscuro",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 5,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 13,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy032",
+  "Nombre": "Punzón",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place13"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 4,
+  "PuntosCorazon": 5,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy043",
+  "Nombre": "El Rompehuesos",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 6,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 20,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy047",
+  "Nombre": "Farolín",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place02"
+  },
+  "PuntosAtaque": 1,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 3,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy049",
+  "Nombre": "Farolén",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 7,
+  "PuntosDefensa": 2,
+  "PuntosCorazon": 12,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy056",
+  "Nombre": "Planta Piraña Gris",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place07"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 4,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy058",
+  "Nombre": "Piraña Hielo",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place18"
+  },
+  "PuntosAtaque": 5,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 10,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy059",
+  "Nombre": "Planta Piraña",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 9,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 15,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy062",
+  "Nombre": "Aracnoide",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place08"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 5,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy012",
+  "Nombre": "Reservoir Troopa",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 4,
+  "PuntosCorazon": 4,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy002",
+  "Nombre": "Paragoomba",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place22"
+  },
+  "PuntosAtaque": 1,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 2,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy017",
+  "Nombre": "Paratroopa Oscuro",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 2,
+  "PuntosCorazon": 8,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy018",
+  "Nombre": "Koopatrullero",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place02"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 2,
+  "PuntosCorazon": 6,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy030",
+  "Nombre": "Pinchón Celeste",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 6,
+  "PuntosDefensa": 4,
+  "PuntosCorazon": 6,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy034",
+  "Nombre": "Parapunzón",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place16"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 4,
+  "PuntosCorazon": 5,
+  "Vuela": true,
+  "TienePincho": true,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy036",
+  "Nombre": "Magikoopa",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place02"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy040",
+  "Nombre": "Kammy Koopa",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place22"
+  },
+  "PuntosAtaque": 5,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 50,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": true
+},
+{
+  "_id": "enemy041",
+  "Nombre": "Bowser",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place22"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 30,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": true,
+  "EsBoss": true
+},
+{
+  "_id": "enemy042",
+  "Nombre": "Angui Lucho",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place01"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 20,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy045",
+  "Nombre": "Gran Bandido",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 8,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy051",
+  "Nombre": "Fuzzy Dorado",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place05"
+  },
+  "PuntosAtaque": 1,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 10,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy063",
+  "Nombre": "Arántula",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 7,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 16,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy064",
+  "Nombre": "Swooper",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place13"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 6,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy009",
+  "Nombre": "Gloompincho",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy010",
+  "Nombre": "Koopa Troopa",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place03"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 4,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy013",
+  "Nombre": "Reservoir Para",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 4,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy020",
+  "Nombre": "Koopa Esqueleto",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place06"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 1,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy023",
+  "Nombre": "Koopa Esqueleto Negro",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place20"
+  },
+  "PuntosAtaque": 5,
+  "PuntosDefensa": 2,
+  "PuntosCorazon": 20,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy031",
+  "Nombre": "Buzzy Beetle",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place13"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 4,
+  "PuntosCorazon": 5,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy033",
+  "Nombre": "Parabuzzy",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place15"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 4,
+  "PuntosCorazon": 5,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": true,
+  "EsBoss": false
+},
+{
+  "_id": "enemy037",
+  "Nombre": "Magikoopa Rojo",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy038",
+  "Nombre": "Magikoopa Blanco",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place10"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy046",
+  "Nombre": "Bandido Medallas",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 5,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 12,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy048",
+  "Nombre": "Farolán",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place02"
+  },
+  "PuntosAtaque": 1,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 3,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy052",
+  "Nombre": "Fuzzy Bosque",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place14"
+  },
+  "PuntosAtaque": 3,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 5,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy055",
+  "Nombre": "Pokey Venenoso",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place16"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 8,
+  "Vuela": false,
+  "TienePincho": true,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy060",
+  "Nombre": "Margaloca",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place12"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 7,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy061",
+  "Nombre": "Margamola",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place12"
+  },
+  "PuntosAtaque": 20,
+  "PuntosDefensa": 1,
+  "PuntosCorazon": 20,
+  "Vuela": false,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy065",
+  "Nombre": "Supula",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place20"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 9,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy066",
+  "Nombre": "Vampirito",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 6,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 20,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy067",
+  "Nombre": "Puff Oscuro",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place07"
+  },
+  "PuntosAtaque": 2,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 3,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy069",
+  "Nombre": "Puff Helado",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place18"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 9,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy070",
+  "Nombre": "Puff Venenoso",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place21"
+  },
+  "PuntosAtaque": 8,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 15,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+},
+{
+  "_id": "enemy068",
+  "Nombre": "Ruff Puff",
+  "Region": {
+    "$ref": "Lugares",
+    "$id": "place16"
+  },
+  "PuntosAtaque": 4,
+  "PuntosDefensa": 0,
+  "PuntosCorazon": 7,
+  "Vuela": true,
+  "TienePincho": false,
+  "TieneCaparazon": false,
+  "EsBoss": false
+}]

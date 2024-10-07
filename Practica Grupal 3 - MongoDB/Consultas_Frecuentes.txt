@@ -1,0 +1,81 @@
+////// CONSULTAS FRECUENTES //////
+
+// 1)Las descripciones de los ítems del jugador con id X (cuando se abre el inventario
+// deben aparecer todos los ítems).
+db.Partidas.find({"_id": 'game0001'}, {"Items.Descripcion": 1, "_id": 0})
+
+// 2)Número de puntos corazón de cada personaje (aparecen en la UI del juego,
+// por lo que debe accederse al dato constantemente).
+db.Partidas.find({ "_id": 'game0001'}, {CurrentPC: 1, _id: 0});
+
+// 3)Número de monedas del personaje (aparece en la UI).
+db.Partidas.find({ "_id": 'game0001' }, {Monedas: 1, _id: 0});
+
+// 4)Número de puntos estrella que posee actualmente el jugador con id X 
+// (aparece en la barra azul de la UI).
+db.Partidas.find({"_id": "game0003"}, {"_id": 0, PE_Actuales: "$CurrentPE"})
+
+// 5)Índice de defensa y ataque de cada enemigo, ya que se accederá cada vez que haya una batalla.
+db.Partidas.aggregate([
+    {$unwind: "$LogEnemigos"},
+    {$unwind: "$LogEnemigos.Enemigos"},
+    {$project: {"_id": 0, Ataque: "$LogEnemigos.Enemigos.PuntosAtaque",
+       Defensa: "$LogEnemigos.Enemigos.PuntosDefensa"}}
+])
+
+// 6)Salud del enemigo con nombre X (en la batalla se irá comprobando continuamente).
+db.Partidas.aggregate([
+    {$unwind: "$LogEnemigos"},
+    {$unwind: "$LogEnemigos.Enemigos"},
+    {$match: {"LogEnemigos.Enemigos.Nombre": "Koopa Troopa"}},
+    {$project: {"_id": 0, Salud: "$LogEnemigos.Enemigos.PuntosCorazon"}}
+])
+
+// 7)El número de ayudantes que tiene una batalla (cada vez que haya una batalla se 
+// accederá al dato para generar los enemigos secundarios.
+db.Partidas.find({"_id":"game0001"},{"_id":0,"LogEnemigos.NumAyudas":1})
+
+// 8)Número de puntos flor de los que dispone el jugador.
+db.Partidas.find({"_id":"game0001"},{_id:0,"CurrentPF":1})
+
+// 9)Ordenar las habilidades estrella por coste de menor a mayor.
+db.Partidas.aggregate([
+  {
+    $unwind: "$HabEstrella" // Descomponer en documentos individuales
+  },
+  {
+    $project: {
+      _id: 0,
+      Nombre: "$HabEstrella.Nombre",
+      CostePE: "$HabEstrella.CostePE",
+      Descripcion: "$HabEstrella.Descripcion"
+    }
+  },
+  {
+    $sort: {
+      CostePE: 1
+    }
+  }
+])
+
+
+// 10)Comprobar si el número de puntos estrella que tiene el jugador es inferior a 8 
+// (7 + la que dan por defecto).   
+// (cuando llega a 8 y el jugador va a la puerta milenaria se abre)
+db.Partidas.find({CurrentPE:{$lt:8}},{_id:0,Nombre:1,CurrentPE:1})
+
+// 11)Comprobar si el número de puntos nivel es 100 para subir de nivel al personaje y 
+// volver a poner los puntos nivel a 0.
+db.Partidas.find({PuntosNivel:{$gt:100}},{_id:0,Nombre:1,PuntosNivel:1})
+
+// 12)Las habilidades que tiene el personaje acompañante del jugador.
+db.Partidas.find({},{_id:0,"Acompañante.Nombre":1,"Acompañante.Habilidades":1})
+
+// 13)Saber si el enemigo es un jefe (boss) o no.
+db.Partidas.find({},{_id:0,Nombre:1,"LogEnemigos.Enemigos.Nombre":1})
+
+// 14)Consultar el lugar de procedencia de un personaje acompañante, para saber donde se puede conseguir.
+db.Partidas.find({},{_id:0,"Acompañante.Nombre":1,"Acompañante.Procedencia.Nombre":1})
+
+// 15)Consultar la ultima zona donde ha estado el jugador.
+db.Partidas.find({},{_id:0,Nombre:1,UltimaArea:1})

@@ -1,0 +1,45 @@
+// INSTRUCCIONES DE LOS ÍNDICES
+// 1 Abrir la línea de comandos de mongo
+// 2 Abrir la base de datos correspondiente con use BaseDeDatos
+// 3 Pegar el índice que quieras aplicar
+// 4 Utilizar una consulta que contenga el índice
+
+// Jugadores que pueden subir de nivel
+db.Partidas.createIndex({"PuntosNivel":1}, {name:"SubirNivel", partialFilterExpresion:{PuntosNivel:{$gt:100}}});
+
+// Reduce el campo de busqueda a los jugadores que pueden abrir la Puerta Milenaria
+db.Partidas.createIndex({"CurrentPE":1}, {name:"AbrirPuertaMilenaria", partialFilterExpresion:{CurrentPE:{$lt:8}}});
+
+// Jugadores que tienen un estado concreto
+db.Partidas.createIndex({"_id":1, "Estado":1});
+
+// Jugadores que tienen un gran numero de puntos flor y de monedas
+db.Partidas.createIndex({"Monedas": 1, "CurrentPF": 1},{name:"ConsultaSimple1", partialFilterExpresion:{Monedas:{$gt:50}, CurrentPF:{$gt:30}}});
+
+// Ordenar habilidades estrella
+db.Partidas.createIndex({"HabEstrella.CostePE":1})
+
+// Ordenar por numero de monedas 
+db.Partidas.createIndex({"Monedas":1});
+
+// Reduce la busqueda a los enemigos que son debiles
+db.Partidas.createIndex({"LogEnemigos.Enemigos.PuntosAtaque":1, "LogEnemigos.Enemigos.PuntosDefensa":1})
+
+// Reduce la busqueda a los enemigos que son boss
+db.Partidas.createIndex({"LogEnemigos.Enemigos.Nombre": 1},{name:"EsBoss", partialFilterExpression:{LogEnemigos.Enemigos.EsBoss:true}})
+
+// Evita nombres duplicados
+db.Partidas.createIndex({"LogEnemigos.Enemigos.Nombre":1}, {"unique":true})
+
+// Consultas que los puntos estrella sean inferiores a 4
+// Usado en la consulta recurrente 10
+db.Partidas.createIndex({"CurrentPE":1},{partialFilterExpression:{"CurrentPE":{$lt:4}}})
+
+// Indice Compuesto para Consultar por Procedencia del Acompanante
+// Para la consulta 14
+db.Partidas.createIndex({"Estado.Acompañante.Procedencia.Nombre":1,"Estado.Acompañante.CurrentPC":1})
+
+// Indice Compuesto para consultar los valores máximos de PC, PF, PE y PM
+db.Partidas.createIndex({"MaxPC": 1, "MaxPF": 1, "MaxPE": 1, "MaxPM": 1})
+
+
